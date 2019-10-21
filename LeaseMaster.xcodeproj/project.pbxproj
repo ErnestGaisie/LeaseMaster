@@ -14,6 +14,15 @@
 		CE6B752A235DA85C0055480B /* LeaseMaster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE6B7528235DA85C0055480B /* LeaseMaster.xcdatamodeld */; };
 		CE6B752C235DA85D0055480B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6B752B235DA85D0055480B /* Assets.xcassets */; };
 		CE6B752F235DA85D0055480B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6B752D235DA85D0055480B /* LaunchScreen.storyboard */; };
+		CE6B7539235DAB990055480B /* Gilroy-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE6B7536235DAB990055480B /* Gilroy-ExtraBold.otf */; };
+		CE6B753A235DAB990055480B /* Gilroy-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE6B7537235DAB990055480B /* Gilroy-Light.otf */; };
+		CE6B753B235DAB990055480B /* Radomir Tinkov Free Font EULA .pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE6B7538235DAB990055480B /* Radomir Tinkov Free Font EULA .pdf */; };
+		CE6B7543235DAF3F0055480B /* CustomUIProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B7542235DAF3F0055480B /* CustomUIProperties.swift */; };
+		CE6B7544235DB4A40055480B /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE6B753F235DAC650055480B /* Gilroy-Bold.ttf */; };
+		CE6B7545235DB4A40055480B /* Gilroy-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE6B7540235DAC650055480B /* Gilroy-Heavy.ttf */; };
+		CE6B7546235DB4A40055480B /* Gilroy-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE6B753E235DAC650055480B /* Gilroy-Light.ttf */; };
+		CE6B7547235DB4A40055480B /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE6B753D235DAC650055480B /* Gilroy-Medium.ttf */; };
+		CE6B7548235DB4A40055480B /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE6B753C235DAC650055480B /* Gilroy-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,15 @@
 		CE6B752B235DA85D0055480B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE6B752E235DA85D0055480B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE6B7530235DA85D0055480B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6B7536235DAB990055480B /* Gilroy-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBold.otf"; sourceTree = "<group>"; };
+		CE6B7537235DAB990055480B /* Gilroy-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Light.otf"; sourceTree = "<group>"; };
+		CE6B7538235DAB990055480B /* Radomir Tinkov Free Font EULA .pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Radomir Tinkov Free Font EULA .pdf"; sourceTree = "<group>"; };
+		CE6B753C235DAC650055480B /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		CE6B753D235DAC650055480B /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		CE6B753E235DAC650055480B /* Gilroy-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Light.ttf"; sourceTree = "<group>"; };
+		CE6B753F235DAC650055480B /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		CE6B7540235DAC650055480B /* Gilroy-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Heavy.ttf"; sourceTree = "<group>"; };
+		CE6B7542235DAF3F0055480B /* CustomUIProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIProperties.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +79,30 @@
 				CE6B751F235DA85C0055480B /* AppDelegate.swift */,
 				CE6B7521235DA85C0055480B /* SceneDelegate.swift */,
 				CE6B7523235DA85C0055480B /* ViewController.swift */,
+				CE6B7542235DAF3F0055480B /* CustomUIProperties.swift */,
 				CE6B7525235DA85C0055480B /* Main.storyboard */,
 				CE6B752B235DA85D0055480B /* Assets.xcassets */,
+				CE6B7541235DAC710055480B /* fonts */,
 				CE6B752D235DA85D0055480B /* LaunchScreen.storyboard */,
 				CE6B7530235DA85D0055480B /* Info.plist */,
 				CE6B7528235DA85C0055480B /* LeaseMaster.xcdatamodeld */,
 			);
 			path = LeaseMaster;
+			sourceTree = "<group>";
+		};
+		CE6B7541235DAC710055480B /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B753F235DAC650055480B /* Gilroy-Bold.ttf */,
+				CE6B7540235DAC650055480B /* Gilroy-Heavy.ttf */,
+				CE6B753E235DAC650055480B /* Gilroy-Light.ttf */,
+				CE6B753D235DAC650055480B /* Gilroy-Medium.ttf */,
+				CE6B753C235DAC650055480B /* Gilroy-Regular.ttf */,
+				CE6B7536235DAB990055480B /* Gilroy-ExtraBold.otf */,
+				CE6B7537235DAB990055480B /* Gilroy-Light.otf */,
+				CE6B7538235DAB990055480B /* Radomir Tinkov Free Font EULA .pdf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +163,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6B7544235DB4A40055480B /* Gilroy-Bold.ttf in Resources */,
+				CE6B7545235DB4A40055480B /* Gilroy-Heavy.ttf in Resources */,
+				CE6B7546235DB4A40055480B /* Gilroy-Light.ttf in Resources */,
+				CE6B7547235DB4A40055480B /* Gilroy-Medium.ttf in Resources */,
+				CE6B7548235DB4A40055480B /* Gilroy-Regular.ttf in Resources */,
 				CE6B752F235DA85D0055480B /* LaunchScreen.storyboard in Resources */,
 				CE6B752C235DA85D0055480B /* Assets.xcassets in Resources */,
 				CE6B7527235DA85C0055480B /* Main.storyboard in Resources */,
+				CE6B753B235DAB990055480B /* Radomir Tinkov Free Font EULA .pdf in Resources */,
+				CE6B753A235DAB990055480B /* Gilroy-Light.otf in Resources */,
+				CE6B7539235DAB990055480B /* Gilroy-ExtraBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +187,7 @@
 				CE6B7524235DA85C0055480B /* ViewController.swift in Sources */,
 				CE6B7520235DA85C0055480B /* AppDelegate.swift in Sources */,
 				CE6B752A235DA85C0055480B /* LeaseMaster.xcdatamodeld in Sources */,
+				CE6B7543235DAF3F0055480B /* CustomUIProperties.swift in Sources */,
 				CE6B7522235DA85C0055480B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
