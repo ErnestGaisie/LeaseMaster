@@ -23,6 +23,7 @@
 		CE6B7546235DB4A40055480B /* Gilroy-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE6B753E235DAC650055480B /* Gilroy-Light.ttf */; };
 		CE6B7547235DB4A40055480B /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE6B753D235DAC650055480B /* Gilroy-Medium.ttf */; };
 		CE6B7548235DB4A40055480B /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE6B753C235DAC650055480B /* Gilroy-Regular.ttf */; };
+		CE6B754A235DDB520055480B /* SignupGoogleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B7549235DDB520055480B /* SignupGoogleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		CE6B753F235DAC650055480B /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
 		CE6B7540235DAC650055480B /* Gilroy-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Heavy.ttf"; sourceTree = "<group>"; };
 		CE6B7542235DAF3F0055480B /* CustomUIProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIProperties.swift; sourceTree = "<group>"; };
+		CE6B7549235DDB520055480B /* SignupGoogleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupGoogleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				CE6B751F235DA85C0055480B /* AppDelegate.swift */,
 				CE6B7521235DA85C0055480B /* SceneDelegate.swift */,
 				CE6B7523235DA85C0055480B /* ViewController.swift */,
+				CE6B7549235DDB520055480B /* SignupGoogleViewController.swift */,
 				CE6B7542235DAF3F0055480B /* CustomUIProperties.swift */,
 				CE6B7525235DA85C0055480B /* Main.storyboard */,
 				CE6B752B235DA85D0055480B /* Assets.xcassets */,
@@ -186,6 +189,7 @@
 			files = (
 				CE6B7524235DA85C0055480B /* ViewController.swift in Sources */,
 				CE6B7520235DA85C0055480B /* AppDelegate.swift in Sources */,
+				CE6B754A235DDB520055480B /* SignupGoogleViewController.swift in Sources */,
 				CE6B752A235DA85C0055480B /* LeaseMaster.xcdatamodeld in Sources */,
 				CE6B7543235DAF3F0055480B /* CustomUIProperties.swift in Sources */,
 				CE6B7522235DA85C0055480B /* SceneDelegate.swift in Sources */,
