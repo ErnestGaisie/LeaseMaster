@@ -23,6 +23,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         setupTextfields(textField: emailTextField)
         setupTextfields(textField: fullnameTextField)
         setupTextfields(textField: passwordTextField)
+        
         signupLabel.adjustsFontSizeToFitWidth = true
          varyConstraints()
     }
@@ -55,20 +56,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
     }
 
-func setupTextfields(textField:UITextField){
-    textField.layer.cornerRadius = 4.0
-    textField.layer.borderWidth = 1.0
-    textField.layer.borderColor = UIColor.veryLightPink.cgColor
-    
-     // Create a padding view for padding on left
-    textField.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 15, height: textField.frame.height))
-    textField.leftViewMode = .always
-           
-    // Create a padding view for padding on right
-    textField.rightView = UIView(frame: CGRect(x: 0, y: 0, width: 15, height: textField.frame.height))
-    textField.rightViewMode = .always
-   
-}
+
 
 @objc func dismissKeyboard()
 {

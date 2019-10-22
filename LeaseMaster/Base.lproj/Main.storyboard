@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nv8-Zk-HoQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wI6-qP-MqD">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
@@ -35,7 +35,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="54" id="6gc-47-7EV"/>
                                         </constraints>
-                                        <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Gilroy-Medium" family="Gilroy-Medium" pointSize="16"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -45,14 +45,14 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="54" id="odp-l8-r4m"/>
                                         </constraints>
-                                        <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Gilroy-Medium" family="Gilroy-Medium" pointSize="16"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Create password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="weu-lk-ddR">
                                         <rect key="frame" x="0.0" y="156" width="312" height="54"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Gilroy-Medium" family="Gilroy-Medium" pointSize="16"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -304,52 +304,150 @@
             </objects>
             <point key="canvasLocation" x="882.60869565217399" y="137.94642857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Verification View Controller-->
         <scene sceneID="aF8-00-s9T">
             <objects>
-                <viewController id="wI6-qP-MqD" sceneMemberID="viewController">
+                <viewController id="wI6-qP-MqD" customClass="VerificationViewController" customModule="LeaseMaster" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K77-2P-EIe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Verification" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xUf-Hp-ahL">
-                                <rect key="frame" x="31" y="142" width="312" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verification" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xUf-Hp-ahL">
+                                <rect key="frame" x="31" y="116" width="313" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="IWN-tn-OYZ"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Gilroy-Medium" family="Gilroy-Medium" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhh-uG-uMf">
-                                <rect key="frame" x="16" y="379" width="312" height="54"/>
-                                <color key="backgroundColor" red="0.95385378600000004" green="0.45510983469999999" blue="0.1292351484" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhh-uG-uMf">
+                                <rect key="frame" x="31" y="379" width="313" height="54"/>
+                                <color key="backgroundColor" red="0.95385378600000004" green="0.45510983469999999" blue="0.1292351484" alpha="0.89651113013698636" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="54" id="mIr-mv-QYT"/>
+                                    <constraint firstAttribute="height" constant="54" id="khd-83-r91"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Gilroy-Bold" family="Gilroy-Bold" pointSize="15"/>
-                                <state key="normal" title="Sign up">
+                                <state key="normal" title="Submit">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter the verification code we sent to your mobile number" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xMM-c6-9dj">
-                                <rect key="frame" x="51" y="220" width="250" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Gilroy-Regular" family="Gilroy-Regular" pointSize="15"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter the verification code we sent to your mobile number" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xMM-c6-9dj">
+                                <rect key="frame" x="31" y="166" width="313" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="rIj-ZW-AwE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gilroy-Regular" family="Gilroy-Regular" pointSize="13"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gua-we-LSW">
-                                <rect key="frame" x="31" y="55" width="24" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gua-we-LSW">
+                                <rect key="frame" x="31" y="55" width="48" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="n45-gM-EXT"/>
+                                </constraints>
                                 <state key="normal" backgroundImage="close-24-px"/>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="+233 260000000" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Q0v-Ce-pmD">
+                                <rect key="frame" x="31" y="220" width="313" height="54"/>
+                                <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="HIK-iy-QQE"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="54" id="xIA-RX-wNd"/>
+                                </constraints>
+                                <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Gilroy-Medium" family="Gilroy-Medium" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter verification code here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o3D-2e-Jhg">
+                                <rect key="frame" x="31" y="296" width="313" height="54"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="Urt-2i-3mh"/>
+                                </constraints>
+                                <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Gilroy-Medium" family="Gilroy-Medium" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tkA-nC-7OM">
+                                <rect key="frame" x="31" y="459" width="313" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="NOQ-0l-nQT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gilroy-Bold" family="Gilroy-Bold" pointSize="14"/>
+                                <state key="normal" title="Resend verification code">
+                                    <color key="titleColor" red="0.95385378600000004" green="0.45510983469999999" blue="0.1292351484" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ubr-lF-dX4">
+                                <rect key="frame" x="287" y="220" width="57" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="57" id="CTW-pb-wPQ"/>
+                                    <constraint firstAttribute="height" constant="54" id="Zgm-F0-K14"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gilroy-Regular" family="Gilroy-Regular" pointSize="17"/>
+                                <state key="normal" title="Edit">
+                                    <color key="titleColor" red="0.95385378600000004" green="0.45510983469999999" blue="0.1292351484" alpha="0.89651113010000005" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="o3D-2e-Jhg" firstAttribute="top" secondItem="Q0v-Ce-pmD" secondAttribute="bottom" constant="22" id="0wJ-0M-n4q"/>
+                            <constraint firstItem="xUf-Hp-ahL" firstAttribute="centerX" secondItem="K77-2P-EIe" secondAttribute="centerX" id="2Nd-yY-6TP"/>
+                            <constraint firstItem="xUf-Hp-ahL" firstAttribute="top" secondItem="gua-we-LSW" secondAttribute="bottom" constant="37" id="6VG-sd-Vzm"/>
+                            <constraint firstItem="xUf-Hp-ahL" firstAttribute="leading" secondItem="xMM-c6-9dj" secondAttribute="leading" id="AkT-FE-b8N"/>
+                            <constraint firstItem="Ubr-lF-dX4" firstAttribute="leading" secondItem="Q0v-Ce-pmD" secondAttribute="trailing" constant="-57" id="Cdv-Oq-Orw"/>
+                            <constraint firstItem="gua-we-LSW" firstAttribute="leading" secondItem="xUf-Hp-ahL" secondAttribute="leading" id="FT7-xp-54o"/>
+                            <constraint firstItem="Q0v-Ce-pmD" firstAttribute="leading" secondItem="o3D-2e-Jhg" secondAttribute="leading" id="KZt-M3-6f7"/>
+                            <constraint firstItem="Q0v-Ce-pmD" firstAttribute="top" secondItem="xMM-c6-9dj" secondAttribute="bottom" constant="8" id="Lhm-bg-cSO"/>
+                            <constraint firstItem="xMM-c6-9dj" firstAttribute="trailing" secondItem="Q0v-Ce-pmD" secondAttribute="trailing" id="Mv2-o5-lez"/>
+                            <constraint firstItem="fhh-uG-uMf" firstAttribute="leading" secondItem="tkA-nC-7OM" secondAttribute="leading" id="Otu-Sw-PHY"/>
+                            <constraint firstItem="Ubr-lF-dX4" firstAttribute="centerY" secondItem="Q0v-Ce-pmD" secondAttribute="centerY" id="Rpu-px-ab3"/>
+                            <constraint firstItem="o3D-2e-Jhg" firstAttribute="leading" secondItem="fhh-uG-uMf" secondAttribute="leading" id="SLr-nR-1LR"/>
+                            <constraint firstItem="Ubr-lF-dX4" firstAttribute="top" secondItem="Q0v-Ce-pmD" secondAttribute="top" id="TrV-rD-t67"/>
+                            <constraint firstItem="Q0v-Ce-pmD" firstAttribute="trailing" secondItem="o3D-2e-Jhg" secondAttribute="trailing" id="WIp-Nw-baH"/>
+                            <constraint firstItem="xMM-c6-9dj" firstAttribute="leading" secondItem="Q0v-Ce-pmD" secondAttribute="leading" id="YbJ-2m-e8q"/>
+                            <constraint firstItem="gua-we-LSW" firstAttribute="top" secondItem="Yv1-eY-Nz1" secondAttribute="top" constant="11" id="aOX-fc-zCl"/>
+                            <constraint firstItem="fhh-uG-uMf" firstAttribute="top" secondItem="o3D-2e-Jhg" secondAttribute="bottom" constant="29" id="bHI-TS-VBj"/>
+                            <constraint firstItem="o3D-2e-Jhg" firstAttribute="trailing" secondItem="fhh-uG-uMf" secondAttribute="trailing" id="ceF-VE-37c"/>
+                            <constraint firstItem="Ubr-lF-dX4" firstAttribute="bottom" secondItem="Q0v-Ce-pmD" secondAttribute="bottom" id="eRc-SZ-KLh"/>
+                            <constraint firstItem="tkA-nC-7OM" firstAttribute="top" secondItem="fhh-uG-uMf" secondAttribute="bottom" constant="26" id="ecA-pU-CdF"/>
+                            <constraint firstItem="fhh-uG-uMf" firstAttribute="trailing" secondItem="tkA-nC-7OM" secondAttribute="trailing" id="fIa-qa-Nd2"/>
+                            <constraint firstItem="xUf-Hp-ahL" firstAttribute="trailing" secondItem="xMM-c6-9dj" secondAttribute="trailing" id="hlA-j1-N3H"/>
+                            <constraint firstItem="gua-we-LSW" firstAttribute="leading" secondItem="Yv1-eY-Nz1" secondAttribute="leading" constant="31" id="jDS-XG-Fwv"/>
+                            <constraint firstItem="xMM-c6-9dj" firstAttribute="top" secondItem="xUf-Hp-ahL" secondAttribute="bottom" constant="18" id="wXe-XE-C1l"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Yv1-eY-Nz1"/>
                     </view>
+                    <connections>
+                        <outlet property="phoneNumTextField" destination="Q0v-Ce-pmD" id="oAs-4d-jmM"/>
+                        <outlet property="verificationCodeTextField" destination="o3D-2e-Jhg" id="Twq-Rx-xv6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rYf-aT-BFA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1591.2" y="138.91625615763547"/>
+            <point key="canvasLocation" x="1594" y="134"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JLX-yR-aCq">
+            <objects>
+                <viewController id="wvE-DD-uwJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GP2-EO-Hmt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Ns4-kA-mCV"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VWp-H3-1lj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2478" y="134"/>
         </scene>
     </scenes>
     <resources>

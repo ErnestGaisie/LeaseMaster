@@ -29,10 +29,7 @@ class SignupGoogleViewController: UIViewController {
     }
     
 
-   func setupButtonStyle(button:UIButton){
-        button.layer.cornerRadius = 4.0
-        
-    }
+  
 
 
 }
