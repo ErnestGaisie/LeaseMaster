@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE689227235F56560065CA13 /* MemberPlanCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE689226235F56560065CA13 /* MemberPlanCollectionViewCell.swift */; };
 		CE6B7520235DA85C0055480B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B751F235DA85C0055480B /* AppDelegate.swift */; };
 		CE6B7522235DA85C0055480B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B7521235DA85C0055480B /* SceneDelegate.swift */; };
 		CE6B7524235DA85C0055480B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B7523235DA85C0055480B /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE689226235F56560065CA13 /* MemberPlanCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberPlanCollectionViewCell.swift; sourceTree = "<group>"; };
 		CE6B751C235DA85C0055480B /* LeaseMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeaseMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6B751F235DA85C0055480B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE6B7521235DA85C0055480B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 		CE6B7513235DA85C0055480B = {
 			isa = PBXGroup;
 			children = (
+				CE689226235F56560065CA13 /* MemberPlanCollectionViewCell.swift */,
 				CE6B751E235DA85C0055480B /* LeaseMaster */,
 				CE6B751D235DA85C0055480B /* Products */,
 			);
@@ -193,6 +196,7 @@
 				CE6B7524235DA85C0055480B /* ViewController.swift in Sources */,
 				CE6B7520235DA85C0055480B /* AppDelegate.swift in Sources */,
 				CE6B754A235DDB520055480B /* SignupGoogleViewController.swift in Sources */,
+				CE689227235F56560065CA13 /* MemberPlanCollectionViewCell.swift in Sources */,
 				CE6B752A235DA85C0055480B /* LeaseMaster.xcdatamodeld in Sources */,
 				CE6B7543235DAF3F0055480B /* CustomUIProperties.swift in Sources */,
 				CEC458AB235F001200F339DA /* VerificationViewController.swift in Sources */,
