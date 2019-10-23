@@ -12,12 +12,14 @@ class VerificationViewController: UIViewController {
  @IBOutlet weak var phoneNumTextField: UITextField!
  @IBOutlet weak var verificationCodeTextField: UITextField!
     
-    
+    @IBOutlet weak var verifyButton: UIButton!
+       
     override func viewDidLoad() {
         super.viewDidLoad()
 
          setupTextfields(textField: phoneNumTextField)
          setupTextfields(textField: verificationCodeTextField)
+          setupButtonStyle(button:verifyButton)
        
         
         
