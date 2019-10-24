@@ -477,11 +477,7 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mfp-GK-77p">
-                                <rect key="frame" x="0.0" y="137" width="375" height="587"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="375" id="0sO-zP-xyb"/>
-                                    <constraint firstAttribute="height" constant="587" id="LRJ-4T-6Xc"/>
-                                </constraints>
+                                <rect key="frame" x="0.0" y="137" width="375" height="592"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="infoCell" rowHeight="102" id="sDZ-IK-8D3">
                                         <rect key="frame" x="0.0" y="28" width="375" height="102"/>
@@ -515,12 +511,13 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="mfp-GK-77p" firstAttribute="top" secondItem="nxo-xi-t91" secondAttribute="bottom" constant="10" id="11E-fy-GfT"/>
+                            <constraint firstItem="mfp-GK-77p" firstAttribute="trailing" secondItem="nxo-xi-t91" secondAttribute="trailing" id="1t7-X3-807"/>
                             <constraint firstItem="nxo-xi-t91" firstAttribute="leading" secondItem="KKO-wB-HOu" secondAttribute="leading" id="8nQ-qV-2cE"/>
                             <constraint firstItem="nxo-xi-t91" firstAttribute="trailing" secondItem="KKO-wB-HOu" secondAttribute="trailing" id="GNH-Yh-Dg9"/>
                             <constraint firstItem="nxo-xi-t91" firstAttribute="top" secondItem="kOL-Ur-qmu" secondAttribute="top" id="avP-gt-hVe"/>
-                            <constraint firstItem="mfp-GK-77p" firstAttribute="leading" secondItem="KKO-wB-HOu" secondAttribute="leading" id="frY-4N-eli"/>
-                            <constraint firstItem="mfp-GK-77p" firstAttribute="trailing" secondItem="KKO-wB-HOu" secondAttribute="trailing" id="hqF-Ts-BDD"/>
+                            <constraint firstItem="KKO-wB-HOu" firstAttribute="bottom" secondItem="mfp-GK-77p" secondAttribute="bottom" id="f4M-T9-sdd"/>
+                            <constraint firstItem="mfp-GK-77p" firstAttribute="top" secondItem="nxo-xi-t91" secondAttribute="bottom" constant="10" id="oA7-Ue-GEe"/>
+                            <constraint firstItem="mfp-GK-77p" firstAttribute="leading" secondItem="nxo-xi-t91" secondAttribute="leading" id="wxf-WL-chP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="KKO-wB-HOu"/>
                     </view>
