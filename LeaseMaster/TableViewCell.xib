@@ -25,15 +25,15 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" pagingEnabled="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="bQQ-TW-6xh">
-                        <rect key="frame" x="-2.5" y="0.0" width="330" height="227"/>
-                        <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <rect key="frame" x="-2.5" y="0.0" width="335" height="227"/>
+                        <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="330" id="3Pn-kd-UPG"/>
+                            <constraint firstAttribute="width" constant="335" id="3Pn-kd-UPG"/>
                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="227" id="kNa-rY-3vw"/>
                             <constraint firstAttribute="height" constant="227" id="zxt-cb-kUe"/>
                         </constraints>
                         <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" sectionInsetReference="safeArea" id="IiJ-fU-0C8">
-                            <size key="itemSize" width="328" height="227"/>
+                            <size key="itemSize" width="360" height="227"/>
                             <size key="estimatedItemSize" width="340" height="250"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -63,7 +63,7 @@
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¢1,500 / month" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BUW-Fe-sFC">
                         <rect key="frame" x="20" y="276" width="90" height="13"/>
                         <fontDescription key="fontDescription" name="Gilroy-Medium" family="Gilroy-Medium" pointSize="13"/>
-                        <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="2mV-8i-fI4">
@@ -81,7 +81,7 @@
                     <constraint firstItem="BUW-Fe-sFC" firstAttribute="leading" secondItem="rfJ-HK-z2r" secondAttribute="leading" id="SL3-uo-bIk"/>
                     <constraint firstItem="rfJ-HK-z2r" firstAttribute="leading" secondItem="Pfg-S8-AuQ" secondAttribute="leading" id="aeu-6N-Uba"/>
                     <constraint firstItem="BUW-Fe-sFC" firstAttribute="top" secondItem="rfJ-HK-z2r" secondAttribute="bottom" constant="12" id="aop-VU-1Yp"/>
-                    <constraint firstItem="bQQ-TW-6xh" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" constant="-1.5" id="hL6-Vo-BnX"/>
+                    <constraint firstItem="bQQ-TW-6xh" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" constant="1" id="hL6-Vo-BnX"/>
                     <constraint firstAttribute="trailingMargin" secondItem="2mV-8i-fI4" secondAttribute="trailing" constant="12" id="kUc-Gt-d1k"/>
                     <constraint firstItem="Pfg-S8-AuQ" firstAttribute="top" secondItem="2mV-8i-fI4" secondAttribute="bottom" constant="12" id="ldK-cO-05U"/>
                     <constraint firstItem="bQQ-TW-6xh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="r3P-cD-b7W"/>
