@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1A45B62361AF5F00618DBF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A45B52361AF5F00618DBF /* TableViewCell.swift */; };
+		CE1A45B82361B56300618DBF /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A45B72361B56300618DBF /* PaymentViewController.swift */; };
 		CE1BCFF223608D5400DAE47A /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BCFF123608D5400DAE47A /* ResetPasswordViewController.swift */; };
 		CE1BCFF423608DBF00DAE47A /* CreatePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BCFF323608DBF00DAE47A /* CreatePasswordViewController.swift */; };
 		CE689227235F56560065CA13 /* MemberPlanCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE689226235F56560065CA13 /* MemberPlanCollectionViewCell.swift */; };
@@ -31,10 +33,13 @@
 		CE6B754A235DDB520055480B /* SignupGoogleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B7549235DDB520055480B /* SignupGoogleViewController.swift */; };
 		CE7E9D73236075D300E35129 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E9D72236075D300E35129 /* LoginViewController.swift */; };
 		CE7E9D7523607C5900E35129 /* AddNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E9D7423607C5900E35129 /* AddNumberViewController.swift */; };
+		CE9BFAE22366FA890039FAD5 /* RangeSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9BFAE12366FA890039FAD5 /* RangeSliderViewController.swift */; };
 		CEC458AB235F001200F339DA /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC458AA235F001200F339DA /* VerificationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE1A45B52361AF5F00618DBF /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		CE1A45B72361B56300618DBF /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		CE1BCFF123608D5400DAE47A /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		CE1BCFF323608DBF00DAE47A /* CreatePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordViewController.swift; sourceTree = "<group>"; };
 		CE689226235F56560065CA13 /* MemberPlanCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberPlanCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -61,6 +66,7 @@
 		CE6B7549235DDB520055480B /* SignupGoogleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupGoogleViewController.swift; sourceTree = "<group>"; };
 		CE7E9D72236075D300E35129 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CE7E9D7423607C5900E35129 /* AddNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNumberViewController.swift; sourceTree = "<group>"; };
+		CE9BFAE12366FA890039FAD5 /* RangeSliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSliderViewController.swift; sourceTree = "<group>"; };
 		CEC458AA235F001200F339DA /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE686D2E2366FEFE00E365E8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sources;
+			path = "../../../Downloads/RangeSeekSlider-master/Sources";
+			sourceTree = "<group>";
+		};
 		CE6B7513235DA85C0055480B = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +116,10 @@
 				CE6B752D235DA85D0055480B /* LaunchScreen.storyboard */,
 				CE6B7530235DA85D0055480B /* Info.plist */,
 				CE6B7528235DA85C0055480B /* LeaseMaster.xcdatamodeld */,
+				CE1A45B52361AF5F00618DBF /* TableViewCell.swift */,
+				CE1A45B72361B56300618DBF /* PaymentViewController.swift */,
+				CE686D2E2366FEFE00E365E8 /* Sources */,
+				CE9BFAE12366FA890039FAD5 /* RangeSliderViewController.swift */,
 			);
 			path = LeaseMaster;
 			sourceTree = "<group>";
@@ -228,11 +246,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE6B7524235DA85C0055480B /* ViewController.swift in Sources */,
+				CE1A45B62361AF5F00618DBF /* TableViewCell.swift in Sources */,
 				CE68922B23605F880065CA13 /* MemberPlanViewController.swift in Sources */,
+				CE9BFAE22366FA890039FAD5 /* RangeSliderViewController.swift in Sources */,
 				CE6B7520235DA85C0055480B /* AppDelegate.swift in Sources */,
 				CE6B754A235DDB520055480B /* SignupGoogleViewController.swift in Sources */,
 				CE689227235F56560065CA13 /* MemberPlanCollectionViewCell.swift in Sources */,
 				CE1BCFF423608DBF00DAE47A /* CreatePasswordViewController.swift in Sources */,
+				CE1A45B82361B56300618DBF /* PaymentViewController.swift in Sources */,
 				CE7E9D7523607C5900E35129 /* AddNumberViewController.swift in Sources */,
 				CE6B752A235DA85C0055480B /* LeaseMaster.xcdatamodeld in Sources */,
 				CE6B7543235DAF3F0055480B /* CustomUIProperties.swift in Sources */,
