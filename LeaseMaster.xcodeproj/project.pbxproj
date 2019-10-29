@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A2026D62366F0DA00B75F90 /* propertiesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2026D52366F0DA00B75F90 /* propertiesDetailViewController.swift */; };
+		6A2026D82366F6AD00B75F90 /* imageSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2026D72366F6AD00B75F90 /* imageSliderCell.swift */; };
 		6ABC81EE235F68C700B5BB83 /* LandingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC81ED235F68C700B5BB83 /* LandingPageViewController.swift */; };
 		6ABC81F1235F894B00B5BB83 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC81EF235F894B00B5BB83 /* TableViewCell.swift */; };
 		6ABC81F2235F894B00B5BB83 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ABC81F0235F894B00B5BB83 /* TableViewCell.xib */; };
@@ -33,6 +35,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A2026D52366F0DA00B75F90 /* propertiesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = propertiesDetailViewController.swift; sourceTree = "<group>"; };
+		6A2026D72366F6AD00B75F90 /* imageSliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageSliderCell.swift; sourceTree = "<group>"; };
 		6ABC81ED235F68C700B5BB83 /* LandingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageViewController.swift; sourceTree = "<group>"; };
 		6ABC81EF235F894B00B5BB83 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		6ABC81F0235F894B00B5BB83 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 				6ABC81F0235F894B00B5BB83 /* TableViewCell.xib */,
 				6ABC81F323605DE700B5BB83 /* SliderCell.swift */,
 				6ABC81F423605DE700B5BB83 /* SliderCell.xib */,
+				6A2026D52366F0DA00B75F90 /* propertiesDetailViewController.swift */,
+				6A2026D72366F6AD00B75F90 /* imageSliderCell.swift */,
 			);
 			path = LeaseMaster;
 			sourceTree = "<group>";
@@ -209,10 +215,12 @@
 			files = (
 				CE6B7524235DA85C0055480B /* ViewController.swift in Sources */,
 				CE6B7520235DA85C0055480B /* AppDelegate.swift in Sources */,
+				6A2026D82366F6AD00B75F90 /* imageSliderCell.swift in Sources */,
 				CE6B754A235DDB520055480B /* SignupGoogleViewController.swift in Sources */,
 				6ABC81F1235F894B00B5BB83 /* TableViewCell.swift in Sources */,
 				6ABC81EE235F68C700B5BB83 /* LandingPageViewController.swift in Sources */,
 				CE6B752A235DA85C0055480B /* LeaseMaster.xcdatamodeld in Sources */,
+				6A2026D62366F0DA00B75F90 /* propertiesDetailViewController.swift in Sources */,
 				6ABC81F523605DE700B5BB83 /* SliderCell.swift in Sources */,
 				CE6B7543235DAF3F0055480B /* CustomUIProperties.swift in Sources */,
 				CEC458AB235F001200F339DA /* VerificationViewController.swift in Sources */,

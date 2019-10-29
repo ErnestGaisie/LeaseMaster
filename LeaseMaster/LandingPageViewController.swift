@@ -47,8 +47,10 @@ class LandingPageViewController: UIViewController, UITableViewDelegate,UITableVi
            return cell
         }
         else {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell", for: indexPath) as! TableViewCell
-            return cell
+            let cellNib = Bundle.main.loadNibNamed("TableViewCell", owner: nil, options: nil)
+            let cell = cellNib![0] as? TableViewCell
+        //let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell", for: indexPath) as! TableViewCell
+            return cell!
         }
         
         
