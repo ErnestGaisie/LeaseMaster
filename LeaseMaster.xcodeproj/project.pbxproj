@@ -11,6 +11,9 @@
 		CE1A45B82361B56300618DBF /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A45B72361B56300618DBF /* PaymentViewController.swift */; };
 		CE1BCFF223608D5400DAE47A /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BCFF123608D5400DAE47A /* ResetPasswordViewController.swift */; };
 		CE1BCFF423608DBF00DAE47A /* CreatePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BCFF323608DBF00DAE47A /* CreatePasswordViewController.swift */; };
+		CE686D4023672DD900E365E8 /* RangeSeekSliderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE686D3D23672DD900E365E8 /* RangeSeekSliderDelegate.swift */; };
+		CE686D4123672DD900E365E8 /* RangeSeekSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE686D3E23672DD900E365E8 /* RangeSeekSlider.swift */; };
+		CE686D4223672DD900E365E8 /* TapticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE686D3F23672DD900E365E8 /* TapticEngine.swift */; };
 		CE689227235F56560065CA13 /* MemberPlanCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE689226235F56560065CA13 /* MemberPlanCollectionViewCell.swift */; };
 		CE689229236057F10065CA13 /* MemberPlanClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE689228236057F10065CA13 /* MemberPlanClass.swift */; };
 		CE68922B23605F880065CA13 /* MemberPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68922A23605F880065CA13 /* MemberPlanViewController.swift */; };
@@ -42,6 +45,9 @@
 		CE1A45B72361B56300618DBF /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		CE1BCFF123608D5400DAE47A /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		CE1BCFF323608DBF00DAE47A /* CreatePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordViewController.swift; sourceTree = "<group>"; };
+		CE686D3D23672DD900E365E8 /* RangeSeekSliderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSeekSliderDelegate.swift; sourceTree = "<group>"; };
+		CE686D3E23672DD900E365E8 /* RangeSeekSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSeekSlider.swift; sourceTree = "<group>"; };
+		CE686D3F23672DD900E365E8 /* TapticEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapticEngine.swift; sourceTree = "<group>"; };
 		CE689226235F56560065CA13 /* MemberPlanCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberPlanCollectionViewCell.swift; sourceTree = "<group>"; };
 		CE689228236057F10065CA13 /* MemberPlanClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberPlanClass.swift; sourceTree = "<group>"; };
 		CE68922A23605F880065CA13 /* MemberPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberPlanViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +95,16 @@
 			path = "../../../Downloads/RangeSeekSlider-master/Sources";
 			sourceTree = "<group>";
 		};
+		CE686D3C23672DD900E365E8 /* RangeSleekSlider */ = {
+			isa = PBXGroup;
+			children = (
+				CE686D3D23672DD900E365E8 /* RangeSeekSliderDelegate.swift */,
+				CE686D3E23672DD900E365E8 /* RangeSeekSlider.swift */,
+				CE686D3F23672DD900E365E8 /* TapticEngine.swift */,
+			);
+			path = RangeSleekSlider;
+			sourceTree = "<group>";
+		};
 		CE6B7513235DA85C0055480B = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +124,7 @@
 		CE6B751E235DA85C0055480B /* LeaseMaster */ = {
 			isa = PBXGroup;
 			children = (
+				CE686D3C23672DD900E365E8 /* RangeSleekSlider */,
 				CE7E9D7723607D2B00E35129 /* MemberPlanFiles */,
 				CE7E9D7623607CFF00E35129 /* OnboardingViews */,
 				CE6B7525235DA85C0055480B /* Main.storyboard */,
@@ -254,10 +271,13 @@
 				CE689227235F56560065CA13 /* MemberPlanCollectionViewCell.swift in Sources */,
 				CE1BCFF423608DBF00DAE47A /* CreatePasswordViewController.swift in Sources */,
 				CE1A45B82361B56300618DBF /* PaymentViewController.swift in Sources */,
+				CE686D4023672DD900E365E8 /* RangeSeekSliderDelegate.swift in Sources */,
 				CE7E9D7523607C5900E35129 /* AddNumberViewController.swift in Sources */,
 				CE6B752A235DA85C0055480B /* LeaseMaster.xcdatamodeld in Sources */,
+				CE686D4223672DD900E365E8 /* TapticEngine.swift in Sources */,
 				CE6B7543235DAF3F0055480B /* CustomUIProperties.swift in Sources */,
 				CEC458AB235F001200F339DA /* VerificationViewController.swift in Sources */,
+				CE686D4123672DD900E365E8 /* RangeSeekSlider.swift in Sources */,
 				CE1BCFF223608D5400DAE47A /* ResetPasswordViewController.swift in Sources */,
 				CE689229236057F10065CA13 /* MemberPlanClass.swift in Sources */,
 				CE6B7522235DA85C0055480B /* SceneDelegate.swift in Sources */,
