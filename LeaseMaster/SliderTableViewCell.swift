@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TableViewCell: UITableViewCell, UICollectionViewDelegate, UICollectionViewDataSource {
+class SliderTableViewCell: UITableViewCell, UICollectionViewDelegate, UICollectionViewDataSource {
     
     @IBOutlet weak var pageView: UIPageControl!
     
@@ -70,7 +70,7 @@ class TableViewCell: UITableViewCell, UICollectionViewDelegate, UICollectionView
 }
 
 
-extension TableViewCell: UICollectionViewDelegateFlowLayout {
+extension SliderTableViewCell: UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
         return UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)

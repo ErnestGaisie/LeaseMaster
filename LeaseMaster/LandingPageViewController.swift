@@ -48,7 +48,7 @@ class LandingPageViewController: UIViewController, UITableViewDelegate,UITableVi
         }
         else {
             let cellNib = Bundle.main.loadNibNamed("TableViewCell", owner: nil, options: nil)
-            let cell = cellNib![0] as? TableViewCell
+            let cell = cellNib![0] as? SliderTableViewCell
         //let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell", for: indexPath) as! TableViewCell
             return cell!
         }
