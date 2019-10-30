@@ -7,18 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-
-		CE1A45B62361AF5F00618DBF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A45B52361AF5F00618DBF /* TableViewCell.swift */; };
 		CE1A45B82361B56300618DBF /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A45B72361B56300618DBF /* PaymentViewController.swift */; };
 		CE1BCFF223608D5400DAE47A /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BCFF123608D5400DAE47A /* ResetPasswordViewController.swift */; };
 		CE1BCFF423608DBF00DAE47A /* CreatePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BCFF323608DBF00DAE47A /* CreatePasswordViewController.swift */; };
+		CE39815E2369ACC2009212A2 /* LandingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39815D2369ACC2009212A2 /* LandingPageViewController.swift */; };
+		CE3981612369ACCC009212A2 /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39815F2369ACCC009212A2 /* SliderCell.swift */; };
+		CE3981622369ACCC009212A2 /* SliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3981602369ACCC009212A2 /* SliderCell.xib */; };
+		CE3981652369ACD9009212A2 /* SliderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3981632369ACD9009212A2 /* SliderTableViewCell.swift */; };
+		CE3981662369ACD9009212A2 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3981642369ACD9009212A2 /* TableViewCell.xib */; };
+		CE3981682369ACE0009212A2 /* imageSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3981672369ACE0009212A2 /* imageSliderCell.swift */; };
+		CE39816A2369ACEE009212A2 /* propertiesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3981692369ACEE009212A2 /* propertiesDetailViewController.swift */; };
+		CE39816D2369ADCF009212A2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39816C2369ADCF009212A2 /* TableViewCell.swift */; };
 		CE686D4023672DD900E365E8 /* RangeSeekSliderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE686D3D23672DD900E365E8 /* RangeSeekSliderDelegate.swift */; };
 		CE686D4123672DD900E365E8 /* RangeSeekSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE686D3E23672DD900E365E8 /* RangeSeekSlider.swift */; };
 		CE686D4223672DD900E365E8 /* TapticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE686D3F23672DD900E365E8 /* TapticEngine.swift */; };
 		CE689227235F56560065CA13 /* MemberPlanCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE689226235F56560065CA13 /* MemberPlanCollectionViewCell.swift */; };
 		CE689229236057F10065CA13 /* MemberPlanClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE689228236057F10065CA13 /* MemberPlanClass.swift */; };
 		CE68922B23605F880065CA13 /* MemberPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68922A23605F880065CA13 /* MemberPlanViewController.swift */; };
-
 		CE6B7520235DA85C0055480B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B751F235DA85C0055480B /* AppDelegate.swift */; };
 		CE6B7522235DA85C0055480B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B7521235DA85C0055480B /* SceneDelegate.swift */; };
 		CE6B7524235DA85C0055480B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B7523235DA85C0055480B /* ViewController.swift */; };
@@ -43,18 +48,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-
-		CE1A45B52361AF5F00618DBF /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		CE1A45B72361B56300618DBF /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		CE1BCFF123608D5400DAE47A /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		CE1BCFF323608DBF00DAE47A /* CreatePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordViewController.swift; sourceTree = "<group>"; };
+		CE39815D2369ACC2009212A2 /* LandingPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingPageViewController.swift; sourceTree = "<group>"; };
+		CE39815F2369ACCC009212A2 /* SliderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
+		CE3981602369ACCC009212A2 /* SliderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderCell.xib; sourceTree = "<group>"; };
+		CE3981632369ACD9009212A2 /* SliderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderTableViewCell.swift; sourceTree = "<group>"; };
+		CE3981642369ACD9009212A2 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		CE3981672369ACE0009212A2 /* imageSliderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageSliderCell.swift; sourceTree = "<group>"; };
+		CE3981692369ACEE009212A2 /* propertiesDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = propertiesDetailViewController.swift; sourceTree = "<group>"; };
+		CE39816C2369ADCF009212A2 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		CE686D3D23672DD900E365E8 /* RangeSeekSliderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSeekSliderDelegate.swift; sourceTree = "<group>"; };
 		CE686D3E23672DD900E365E8 /* RangeSeekSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSeekSlider.swift; sourceTree = "<group>"; };
 		CE686D3F23672DD900E365E8 /* TapticEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapticEngine.swift; sourceTree = "<group>"; };
 		CE689226235F56560065CA13 /* MemberPlanCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberPlanCollectionViewCell.swift; sourceTree = "<group>"; };
 		CE689228236057F10065CA13 /* MemberPlanClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberPlanClass.swift; sourceTree = "<group>"; };
 		CE68922A23605F880065CA13 /* MemberPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberPlanViewController.swift; sourceTree = "<group>"; };
-
 		CE6B751C235DA85C0055480B /* LeaseMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeaseMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6B751F235DA85C0055480B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE6B7521235DA85C0055480B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +101,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE39815C2369AC94009212A2 /* SliderViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE3981692369ACEE009212A2 /* propertiesDetailViewController.swift */,
+				CE3981672369ACE0009212A2 /* imageSliderCell.swift */,
+				CE3981632369ACD9009212A2 /* SliderTableViewCell.swift */,
+				CE3981642369ACD9009212A2 /* TableViewCell.xib */,
+				CE39815F2369ACCC009212A2 /* SliderCell.swift */,
+				CE3981602369ACCC009212A2 /* SliderCell.xib */,
+				CE39815D2369ACC2009212A2 /* LandingPageViewController.swift */,
+			);
+			path = SliderViewControllers;
+			sourceTree = "<group>";
+		};
+		CE39816B2369ADB3009212A2 /* FiltersViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE1A45B72361B56300618DBF /* PaymentViewController.swift */,
+				CE39816C2369ADCF009212A2 /* TableViewCell.swift */,
+			);
+			path = FiltersViewControllers;
+			sourceTree = "<group>";
+		};
 		CE686D2E2366FEFE00E365E8 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +135,7 @@
 		CE686D3C23672DD900E365E8 /* RangeSleekSlider */ = {
 			isa = PBXGroup;
 			children = (
+				CE9BFAE12366FA890039FAD5 /* RangeSliderViewController.swift */,
 				CE686D3D23672DD900E365E8 /* RangeSeekSliderDelegate.swift */,
 				CE686D3E23672DD900E365E8 /* RangeSeekSlider.swift */,
 				CE686D3F23672DD900E365E8 /* TapticEngine.swift */,
@@ -128,6 +162,8 @@
 		CE6B751E235DA85C0055480B /* LeaseMaster */ = {
 			isa = PBXGroup;
 			children = (
+				CE39816B2369ADB3009212A2 /* FiltersViewControllers */,
+				CE39815C2369AC94009212A2 /* SliderViewControllers */,
 				CE686D3C23672DD900E365E8 /* RangeSleekSlider */,
 				CE7E9D7723607D2B00E35129 /* MemberPlanFiles */,
 				CE7E9D7623607CFF00E35129 /* OnboardingViews */,
@@ -137,12 +173,7 @@
 				CE6B752D235DA85D0055480B /* LaunchScreen.storyboard */,
 				CE6B7530235DA85D0055480B /* Info.plist */,
 				CE6B7528235DA85C0055480B /* LeaseMaster.xcdatamodeld */,
-
-				CE1A45B52361AF5F00618DBF /* TableViewCell.swift */,
-				CE1A45B72361B56300618DBF /* PaymentViewController.swift */,
 				CE686D2E2366FEFE00E365E8 /* Sources */,
-				CE9BFAE12366FA890039FAD5 /* RangeSliderViewController.swift */,
-
 			);
 			path = LeaseMaster;
 			sourceTree = "<group>";
@@ -248,13 +279,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE6B7544235DB4A40055480B /* Gilroy-Bold.ttf in Resources */,
-				6ABC81F2235F894B00B5BB83 /* TableViewCell.xib in Resources */,
 				CE6B7545235DB4A40055480B /* Gilroy-Heavy.ttf in Resources */,
 				CE6B7546235DB4A40055480B /* Gilroy-Light.ttf in Resources */,
-				6ABC81F623605DE700B5BB83 /* SliderCell.xib in Resources */,
 				CE6B7547235DB4A40055480B /* Gilroy-Medium.ttf in Resources */,
+				CE3981662369ACD9009212A2 /* TableViewCell.xib in Resources */,
 				CE6B7548235DB4A40055480B /* Gilroy-Regular.ttf in Resources */,
 				CE6B752F235DA85D0055480B /* LaunchScreen.storyboard in Resources */,
+				CE3981622369ACCC009212A2 /* SliderCell.xib in Resources */,
 				CE6B752C235DA85D0055480B /* Assets.xcassets in Resources */,
 				CE6B7527235DA85C0055480B /* Main.storyboard in Resources */,
 				CE6B753B235DAB990055480B /* Radomir Tinkov Free Font EULA .pdf in Resources */,
@@ -270,25 +301,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3981612369ACCC009212A2 /* SliderCell.swift in Sources */,
 				CE6B7524235DA85C0055480B /* ViewController.swift in Sources */,
-				CE1A45B62361AF5F00618DBF /* TableViewCell.swift in Sources */,
 				CE68922B23605F880065CA13 /* MemberPlanViewController.swift in Sources */,
+				CE39816A2369ACEE009212A2 /* propertiesDetailViewController.swift in Sources */,
 				CE9BFAE22366FA890039FAD5 /* RangeSliderViewController.swift in Sources */,
 				CE6B7520235DA85C0055480B /* AppDelegate.swift in Sources */,
-				6A2026D82366F6AD00B75F90 /* imageSliderCell.swift in Sources */,
 				CE6B754A235DDB520055480B /* SignupGoogleViewController.swift in Sources */,
-
 				CE689227235F56560065CA13 /* MemberPlanCollectionViewCell.swift in Sources */,
+				CE3981652369ACD9009212A2 /* SliderTableViewCell.swift in Sources */,
 				CE1BCFF423608DBF00DAE47A /* CreatePasswordViewController.swift in Sources */,
 				CE1A45B82361B56300618DBF /* PaymentViewController.swift in Sources */,
 				CE686D4023672DD900E365E8 /* RangeSeekSliderDelegate.swift in Sources */,
+				CE39816D2369ADCF009212A2 /* TableViewCell.swift in Sources */,
 				CE7E9D7523607C5900E35129 /* AddNumberViewController.swift in Sources */,
 				CE6B752A235DA85C0055480B /* LeaseMaster.xcdatamodeld in Sources */,
+				CE3981682369ACE0009212A2 /* imageSliderCell.swift in Sources */,
 				CE686D4223672DD900E365E8 /* TapticEngine.swift in Sources */,
-
 				CE6B7543235DAF3F0055480B /* CustomUIProperties.swift in Sources */,
 				CEC458AB235F001200F339DA /* VerificationViewController.swift in Sources */,
 				CE686D4123672DD900E365E8 /* RangeSeekSlider.swift in Sources */,
+				CE39815E2369ACC2009212A2 /* LandingPageViewController.swift in Sources */,
 				CE1BCFF223608D5400DAE47A /* ResetPasswordViewController.swift in Sources */,
 				CE689229236057F10065CA13 /* MemberPlanClass.swift in Sources */,
 				CE6B7522235DA85C0055480B /* SceneDelegate.swift in Sources */,
