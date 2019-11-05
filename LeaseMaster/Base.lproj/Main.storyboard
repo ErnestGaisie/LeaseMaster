@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!-- <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5rx-DJ-SFY">
-    <device id="retina5_9" orientation="portrait" appearance="light"/> -->
-
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1En-T9-fLj">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
-
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -24,18 +19,16 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LeaseMaster" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="SignUpViewController" customModule="LeaseMaster" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="IXt-bt-AJL">
-
                                 <rect key="frame" x="33" y="152" width="351" height="210"/>
-
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2tV-gs-B06">
                                         <rect key="frame" x="0.0" y="0.0" width="351" height="54"/>
@@ -48,9 +41,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Full name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5XI-td-QIb">
-
                                         <rect key="frame" x="0.0" y="78" width="351" height="54"/>
-
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="54" id="odp-l8-r4m"/>
@@ -60,9 +51,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Create password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="weu-lk-ddR">
-
                                         <rect key="frame" x="0.0" y="156" width="351" height="54"/>
-
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Gilroy-Medium" family="Gilroy-Medium" pointSize="16"/>
@@ -74,11 +63,8 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBA-vK-hkC">
-
-
                                 <rect key="frame" x="33" y="397" width="351" height="54"/>
                                 <color key="backgroundColor" red="0.95385378600000004" green="0.45510983469999999" blue="0.1292351484" alpha="0.89651113010000005" colorSpace="custom" customColorSpace="displayP3"/>
-
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="5yy-UU-6j7"/>
                                 </constraints>
@@ -91,20 +77,16 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eMk-Sp-4nv">
-
                                 <rect key="frame" x="33" y="547" width="351" height="1"/>
-
                                 <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="8Yb-yv-jMS"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K41-0d-VEb">
-
                                 <rect key="frame" x="33" y="80" width="351" height="28"/>
                                 <fontDescription key="fontDescription" name="Gilroy-Medium" family="Gilroy-Medium" pointSize="28"/>
                                 <color key="textColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="85F-Vf-35K">
@@ -115,12 +97,10 @@
                                 <state key="normal" backgroundImage="close-24-px"/>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Aaj-oy-jNP">
-
                                 <rect key="frame" x="32" y="575" width="282" height="28"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Already have an account?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="xby-zo-psN">
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="28"/>
-
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="lgr-Ai-JCL"/>
                                         </constraints>
@@ -129,9 +109,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8qE-Jj-xrf">
-
                                         <rect key="frame" x="202" y="0.0" width="80" height="28"/>
-
                                         <constraints>
                                             <constraint firstAttribute="width" constant="80" id="cNd-PX-M5M"/>
                                         </constraints>
@@ -142,13 +120,11 @@
                                     </button>
                                 </subviews>
                             </stackView>
-
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By signing up, you agree to the Terms and conditions of Lease Master" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="kHk-wO-GBQ">
                                 <rect key="frame" x="36" y="482" width="348" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="LWl-cp-qbf"/>
                                 </constraints>
-
                                 <fontDescription key="fontDescription" name="Gilroy-Regular" family="Gilroy-Regular" pointSize="15"/>
                                 <color key="textColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -189,9 +165,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-
             <point key="canvasLocation" x="395.6521739130435" y="117.85714285714285"/>
-
         </scene>
         <!--Signup Google View Controller-->
         <scene sceneID="ZgI-b1-sfC">
@@ -346,9 +320,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pxd-PJ-iwI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-
             <point key="canvasLocation" x="-326.08695652173918" y="117.85714285714285"/>
-
         </scene>
         <!--Verification View Controller-->
         <scene sceneID="aF8-00-s9T">
@@ -388,9 +360,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gua-we-LSW">
-
                                 <rect key="frame" x="31" y="11" width="24" height="24"/>
-
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="n45-gM-EXT"/>
                                 </constraints>
@@ -481,9 +451,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rYf-aT-BFA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-
             <point key="canvasLocation" x="1833" y="118"/>
-
         </scene>
         <!--Member Plan View Controller-->
         <scene sceneID="JLX-yR-aCq">
@@ -669,7 +637,6 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VWp-H3-1lj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-
             <point key="canvasLocation" x="-3310.144927536232" y="2534.5982142857142"/>
         </scene>
         <!--Login View Controller-->
@@ -1083,13 +1050,11 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 year advanced payment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Olj-3t-n2O">
                                                     <rect key="frame" x="20" y="18" width="198" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-
                                                 <constraint firstAttribute="bottom" secondItem="tkv-KA-wGa" secondAttribute="bottom" id="DNm-9L-50V"/>
                                                 <constraint firstAttribute="bottom" secondItem="Olj-3t-n2O" secondAttribute="bottom" constant="18" id="IOh-Cb-1HA"/>
                                                 <constraint firstAttribute="trailing" secondItem="tkv-KA-wGa" secondAttribute="trailing" constant="20" id="QLP-iu-y5x"/>
@@ -1551,12 +1516,10 @@
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="uh0-qV-fmD">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-
                         <segue destination="QGo-1K-jJ3" kind="relationship" relationship="rootViewController" id="2nM-og-hGo"/>
                     </connections>
                 </navigationController>
@@ -1567,14 +1530,11 @@
     </scenes>
     <resources>
         <image name="check-box-outline-blank-24-px" width="24" height="24"/>
-
         <image name="close-24-px" width="24" height="24"/>
         <image name="done-24-px" width="21" height="21"/>
         <image name="eye" catalog="system" width="64" height="40"/>
         <image name="google-favicon-vector" width="512" height="512"/>
         <image name="icons8-facebook-f-32" width="32" height="32"/>
-
         <image name="paymentplan-bg" width="375" height="812"/>
-
     </resources>
 </document>

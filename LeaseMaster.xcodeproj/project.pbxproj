@@ -26,7 +26,7 @@
 		CE68922B23605F880065CA13 /* MemberPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68922A23605F880065CA13 /* MemberPlanViewController.swift */; };
 		CE6B7520235DA85C0055480B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B751F235DA85C0055480B /* AppDelegate.swift */; };
 		CE6B7522235DA85C0055480B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B7521235DA85C0055480B /* SceneDelegate.swift */; };
-		CE6B7524235DA85C0055480B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B7523235DA85C0055480B /* ViewController.swift */; };
+		CE6B7524235DA85C0055480B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B7523235DA85C0055480B /* SignUpViewController.swift */; };
 		CE6B7527235DA85C0055480B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6B7525235DA85C0055480B /* Main.storyboard */; };
 		CE6B752A235DA85C0055480B /* LeaseMaster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE6B7528235DA85C0055480B /* LeaseMaster.xcdatamodeld */; };
 		CE6B752C235DA85D0055480B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6B752B235DA85D0055480B /* Assets.xcassets */; };
@@ -68,7 +68,7 @@
 		CE6B751C235DA85C0055480B /* LeaseMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeaseMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6B751F235DA85C0055480B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE6B7521235DA85C0055480B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE6B7523235DA85C0055480B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE6B7523235DA85C0055480B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		CE6B7526235DA85C0055480B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE6B7529235DA85C0055480B /* LeaseMaster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LeaseMaster.xcdatamodel; sourceTree = "<group>"; };
 		CE6B752B235DA85D0055480B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,20 +101,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CE39815C2369AC94009212A2 /* SliderViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				CE3981692369ACEE009212A2 /* propertiesDetailViewController.swift */,
-				CE3981672369ACE0009212A2 /* imageSliderCell.swift */,
-				CE3981632369ACD9009212A2 /* SliderTableViewCell.swift */,
-				CE3981642369ACD9009212A2 /* TableViewCell.xib */,
-				CE39815F2369ACCC009212A2 /* SliderCell.swift */,
-				CE3981602369ACCC009212A2 /* SliderCell.xib */,
-				CE39815D2369ACC2009212A2 /* LandingPageViewController.swift */,
-			);
-			path = SliderViewControllers;
-			sourceTree = "<group>";
-		};
 		CE39816B2369ADB3009212A2 /* FiltersViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,12 +148,16 @@
 		CE6B751E235DA85C0055480B /* LeaseMaster */ = {
 			isa = PBXGroup;
 			children = (
+				CE7E9D7623607CFF00E35129 /* OnboardingModule */,
+				CEB6F4AE2371F54600E94BE4 /* HomeModule */,
+				CEB6F4AF2371F5D800E94BE4 /* SearchModule */,
 				CE39816B2369ADB3009212A2 /* FiltersViewControllers */,
-				CE39815C2369AC94009212A2 /* SliderViewControllers */,
 				CE686D3C23672DD900E365E8 /* RangeSleekSlider */,
 				CE7E9D7723607D2B00E35129 /* MemberPlanFiles */,
-				CE7E9D7623607CFF00E35129 /* OnboardingViews */,
+				CEB6F4B02371F5E300E94BE4 /* ProfileModule */,
 				CE6B7525235DA85C0055480B /* Main.storyboard */,
+				CE6B751F235DA85C0055480B /* AppDelegate.swift */,
+				CE6B7521235DA85C0055480B /* SceneDelegate.swift */,
 				CE6B752B235DA85D0055480B /* Assets.xcassets */,
 				CE6B7541235DAC710055480B /* fonts */,
 				CE6B752D235DA85D0055480B /* LaunchScreen.storyboard */,
@@ -193,20 +183,14 @@
 			path = fonts;
 			sourceTree = "<group>";
 		};
-		CE7E9D7623607CFF00E35129 /* OnboardingViews */ = {
+		CE7E9D7623607CFF00E35129 /* OnboardingModule */ = {
 			isa = PBXGroup;
 			children = (
-				CE6B751F235DA85C0055480B /* AppDelegate.swift */,
-				CE6B7521235DA85C0055480B /* SceneDelegate.swift */,
-				CE7E9D72236075D300E35129 /* LoginViewController.swift */,
-				CE6B7549235DDB520055480B /* SignupGoogleViewController.swift */,
-				CE6B7523235DA85C0055480B /* ViewController.swift */,
-				CE7E9D7423607C5900E35129 /* AddNumberViewController.swift */,
-				CEC458AA235F001200F339DA /* VerificationViewController.swift */,
-				CE1BCFF123608D5400DAE47A /* ResetPasswordViewController.swift */,
-				CE1BCFF323608DBF00DAE47A /* CreatePasswordViewController.swift */,
+				CEB6F4AD2371F3EA00E94BE4 /* ResetPasswordModule */,
+				CEB6F4AB2371F0E700E94BE4 /* SignupModule */,
+				CEB6F4AA2371F02300E94BE4 /* LoginModule */,
 			);
-			path = OnboardingViews;
+			path = OnboardingModule;
 			sourceTree = "<group>";
 		};
 		CE7E9D7723607D2B00E35129 /* MemberPlanFiles */ = {
@@ -218,6 +202,78 @@
 				CE689228236057F10065CA13 /* MemberPlanClass.swift */,
 			);
 			path = MemberPlanFiles;
+			sourceTree = "<group>";
+		};
+		CEB6F4AA2371F02300E94BE4 /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				CE7E9D72236075D300E35129 /* LoginViewController.swift */,
+			);
+			path = LoginModule;
+			sourceTree = "<group>";
+		};
+		CEB6F4AB2371F0E700E94BE4 /* SignupModule */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B7523235DA85C0055480B /* SignUpViewController.swift */,
+				CEC458AA235F001200F339DA /* VerificationViewController.swift */,
+				CE7E9D7423607C5900E35129 /* AddNumberViewController.swift */,
+				CEB6F4AC2371F14000E94BE4 /* SignUpWithSocialMedia */,
+			);
+			path = SignupModule;
+			sourceTree = "<group>";
+		};
+		CEB6F4AC2371F14000E94BE4 /* SignUpWithSocialMedia */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B7549235DDB520055480B /* SignupGoogleViewController.swift */,
+			);
+			path = SignUpWithSocialMedia;
+			sourceTree = "<group>";
+		};
+		CEB6F4AD2371F3EA00E94BE4 /* ResetPasswordModule */ = {
+			isa = PBXGroup;
+			children = (
+				CE1BCFF323608DBF00DAE47A /* CreatePasswordViewController.swift */,
+				CE1BCFF123608D5400DAE47A /* ResetPasswordViewController.swift */,
+			);
+			path = ResetPasswordModule;
+			sourceTree = "<group>";
+		};
+		CEB6F4AE2371F54600E94BE4 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				CE39815D2369ACC2009212A2 /* LandingPageViewController.swift */,
+				CE3981642369ACD9009212A2 /* TableViewCell.xib */,
+				CE3981672369ACE0009212A2 /* imageSliderCell.swift */,
+				CE3981632369ACD9009212A2 /* SliderTableViewCell.swift */,
+				CE39815F2369ACCC009212A2 /* SliderCell.swift */,
+				CE3981602369ACCC009212A2 /* SliderCell.xib */,
+				CEB6F4B12371F69500E94BE4 /* DetailModule */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		CEB6F4AF2371F5D800E94BE4 /* SearchModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SearchModule;
+			sourceTree = "<group>";
+		};
+		CEB6F4B02371F5E300E94BE4 /* ProfileModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProfileModule;
+			sourceTree = "<group>";
+		};
+		CEB6F4B12371F69500E94BE4 /* DetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				CE3981692369ACEE009212A2 /* propertiesDetailViewController.swift */,
+			);
+			path = DetailModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,7 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE3981612369ACCC009212A2 /* SliderCell.swift in Sources */,
-				CE6B7524235DA85C0055480B /* ViewController.swift in Sources */,
+				CE6B7524235DA85C0055480B /* SignUpViewController.swift in Sources */,
 				CE68922B23605F880065CA13 /* MemberPlanViewController.swift in Sources */,
 				CE39816A2369ACEE009212A2 /* propertiesDetailViewController.swift in Sources */,
 				CE9BFAE22366FA890039FAD5 /* RangeSliderViewController.swift in Sources */,
