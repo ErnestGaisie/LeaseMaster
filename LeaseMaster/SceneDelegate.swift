@@ -18,9 +18,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let _ = (scene as? UIWindowScene) else { return }
         
         var searchStoryboard: UIStoryboard!
-        searchStoryboard = UIStoryboard(name: "Profile", bundle: nil)
+        searchStoryboard = UIStoryboard(name: "Search", bundle: nil)
         
-        let viewController: UIViewController = searchStoryboard.instantiateViewController(identifier: "AccountViewController") as UIViewController
+        let viewController: UIViewController = searchStoryboard.instantiateViewController(identifier: "SearchStoryboard") as UIViewController
         self.window!.rootViewController = viewController
         
         

@@ -51,13 +51,13 @@ class ResetPasswordInteractor: PasswordResetPresentorToInteractorProtocol{
                 print("swimmping pool")
                 LoginPresenter.sharedInstance.loginSuccessfulPeformSegue(success: false)
 
-                self.presenter?.loginUserResponseFetchedFailed(message: duplicate)
+//                self.presenter?.loginUserResponseFetchedFailed(message: duplicate)
             }
             
            else if let value = response.result.value{
                                let apiResponseData = JSON(value)
                               let message = apiResponseData["message"].stringValue
-                 self.presenter?.loginUserResponseFetchedFailed(message: message)
+//                 self.presenter?.loginUserResponseFetchedFailed(message: message)
                 LoginPresenter.sharedInstance.loginSuccessfulPeformSegue(success: false)
 
                                     
