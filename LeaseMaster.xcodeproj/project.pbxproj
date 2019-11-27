@@ -3,13 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE1A45B82361B56300618DBF /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A45B72361B56300618DBF /* PaymentViewController.swift */; };
+		BED1E8AC6E68C5FCC63EC109 /* Pods_LeaseMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25653B9B99745D1271EA6991 /* Pods_LeaseMaster.framework */; };
 		CE1BCFF223608D5400DAE47A /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BCFF123608D5400DAE47A /* ResetPasswordViewController.swift */; };
-		CE1BCFF423608DBF00DAE47A /* CreatePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BCFF323608DBF00DAE47A /* CreatePasswordViewController.swift */; };
+		CE318E9323742431009461F0 /* SignupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE318E9223742431009461F0 /* SignupPresenter.swift */; };
+		CE318E95237425F8009461F0 /* SignupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE318E94237425F8009461F0 /* SignupModel.swift */; };
+		CE318E9723742649009461F0 /* SignupProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE318E9623742649009461F0 /* SignupProtocols.swift */; };
+		CE318E9A237426A5009461F0 /* SignupInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE318E99237426A5009461F0 /* SignupInteractor.swift */; };
+		CE318E9C237426D8009461F0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE318E9B237426D8009461F0 /* Constants.swift */; };
+		CE318E9E23744198009461F0 /* RegistrationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE318E9D23744198009461F0 /* RegistrationResponse.swift */; };
+		CE34EBC92382D9C500C04486 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34EBC82382D9C500C04486 /* LoginResponse.swift */; };
+		CE34EBCB2383F44600C04486 /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE34EBCA2383F44600C04486 /* credentials.plist */; };
+		CE34EBD323855CDD00C04486 /* ResetPasswordRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34EBD223855CDD00C04486 /* ResetPasswordRouter.swift */; };
+		CE34EBD523855CEE00C04486 /* ResetPasswordPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34EBD423855CEE00C04486 /* ResetPasswordPresenter.swift */; };
+		CE34EBD723855D0B00C04486 /* ResetPasswordInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34EBD623855D0B00C04486 /* ResetPasswordInteractor.swift */; };
+		CE34EBD923855D1E00C04486 /* ResetPasswordModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34EBD823855D1E00C04486 /* ResetPasswordModels.swift */; };
+		CE34EBDB23855D3000C04486 /* ResetPasswordProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34EBDA23855D3000C04486 /* ResetPasswordProtocols.swift */; };
 		CE39815E2369ACC2009212A2 /* LandingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39815D2369ACC2009212A2 /* LandingPageViewController.swift */; };
 		CE3981612369ACCC009212A2 /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39815F2369ACCC009212A2 /* SliderCell.swift */; };
 		CE3981622369ACCC009212A2 /* SliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3981602369ACCC009212A2 /* SliderCell.xib */; };
@@ -17,7 +29,12 @@
 		CE3981662369ACD9009212A2 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3981642369ACD9009212A2 /* TableViewCell.xib */; };
 		CE3981682369ACE0009212A2 /* imageSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3981672369ACE0009212A2 /* imageSliderCell.swift */; };
 		CE39816A2369ACEE009212A2 /* propertiesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3981692369ACEE009212A2 /* propertiesDetailViewController.swift */; };
-		CE39816D2369ADCF009212A2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39816C2369ADCF009212A2 /* TableViewCell.swift */; };
+		CE4A8C04237D5FC400C47023 /* SignupRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A8C03237D5FC400C47023 /* SignupRouter.swift */; };
+		CE4A8C43237DD3AC00C47023 /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A8C42237DD3AC00C47023 /* Validations.swift */; };
+		CE4A8C49237DD74D00C47023 /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A8C45237DD74D00C47023 /* SkyFloatingLabelTextField.swift */; };
+		CE4A8C4A237DD74D00C47023 /* ExpFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A8C46237DD74D00C47023 /* ExpFloatingLabelTextField.swift */; };
+		CE4A8C4B237DD74D00C47023 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A8C47237DD74D00C47023 /* UITextField+fixCaretPosition.swift */; };
+		CE4A8C4C237DD74D00C47023 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A8C48237DD74D00C47023 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
 		CE686D4023672DD900E365E8 /* RangeSeekSliderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE686D3D23672DD900E365E8 /* RangeSeekSliderDelegate.swift */; };
 		CE686D4123672DD900E365E8 /* RangeSeekSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE686D3E23672DD900E365E8 /* RangeSeekSlider.swift */; };
 		CE686D4223672DD900E365E8 /* TapticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE686D3F23672DD900E365E8 /* TapticEngine.swift */; };
@@ -42,15 +59,32 @@
 		CE6B7548235DB4A40055480B /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE6B753C235DAC650055480B /* Gilroy-Regular.ttf */; };
 		CE6B754A235DDB520055480B /* SignupGoogleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B7549235DDB520055480B /* SignupGoogleViewController.swift */; };
 		CE7E9D73236075D300E35129 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E9D72236075D300E35129 /* LoginViewController.swift */; };
-		CE7E9D7523607C5900E35129 /* AddNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E9D7423607C5900E35129 /* AddNumberViewController.swift */; };
 		CE9BFAE22366FA890039FAD5 /* RangeSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9BFAE12366FA890039FAD5 /* RangeSliderViewController.swift */; };
-		CEC458AB235F001200F339DA /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC458AA235F001200F339DA /* VerificationViewController.swift */; };
+		CEA862A32382B73B003760E5 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA862A22382B73B003760E5 /* LoginRouter.swift */; };
+		CEA862A52382BC0F003760E5 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA862A42382BC0F003760E5 /* LoginPresenter.swift */; };
+		CEA862A72382BC1D003760E5 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA862A62382BC1D003760E5 /* LoginInteractor.swift */; };
+		CEA862A92382BC4B003760E5 /* LoginModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA862A82382BC4B003760E5 /* LoginModels.swift */; };
+		CEA862AB2382BC58003760E5 /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA862AA2382BC58003760E5 /* LoginProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CE1A45B72361B56300618DBF /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		25653B9B99745D1271EA6991 /* Pods_LeaseMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeaseMaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA22065F435EF7683E3B714 /* Pods-LeaseMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeaseMaster.debug.xcconfig"; path = "Target Support Files/Pods-LeaseMaster/Pods-LeaseMaster.debug.xcconfig"; sourceTree = "<group>"; };
+		7CC3526E0D15689A65BBC0F5 /* Pods-LeaseMaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeaseMaster.release.xcconfig"; path = "Target Support Files/Pods-LeaseMaster/Pods-LeaseMaster.release.xcconfig"; sourceTree = "<group>"; };
 		CE1BCFF123608D5400DAE47A /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
-		CE1BCFF323608DBF00DAE47A /* CreatePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordViewController.swift; sourceTree = "<group>"; };
+		CE318E9223742431009461F0 /* SignupPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupPresenter.swift; sourceTree = "<group>"; };
+		CE318E94237425F8009461F0 /* SignupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupModel.swift; sourceTree = "<group>"; };
+		CE318E9623742649009461F0 /* SignupProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupProtocols.swift; sourceTree = "<group>"; };
+		CE318E99237426A5009461F0 /* SignupInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupInteractor.swift; sourceTree = "<group>"; };
+		CE318E9B237426D8009461F0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CE318E9D23744198009461F0 /* RegistrationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationResponse.swift; sourceTree = "<group>"; };
+		CE34EBC82382D9C500C04486 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		CE34EBCA2383F44600C04486 /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
+		CE34EBD223855CDD00C04486 /* ResetPasswordRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordRouter.swift; sourceTree = "<group>"; };
+		CE34EBD423855CEE00C04486 /* ResetPasswordPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordPresenter.swift; sourceTree = "<group>"; };
+		CE34EBD623855D0B00C04486 /* ResetPasswordInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordInteractor.swift; sourceTree = "<group>"; };
+		CE34EBD823855D1E00C04486 /* ResetPasswordModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordModels.swift; sourceTree = "<group>"; };
+		CE34EBDA23855D3000C04486 /* ResetPasswordProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordProtocols.swift; sourceTree = "<group>"; };
 		CE39815D2369ACC2009212A2 /* LandingPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingPageViewController.swift; sourceTree = "<group>"; };
 		CE39815F2369ACCC009212A2 /* SliderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
 		CE3981602369ACCC009212A2 /* SliderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderCell.xib; sourceTree = "<group>"; };
@@ -58,7 +92,12 @@
 		CE3981642369ACD9009212A2 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		CE3981672369ACE0009212A2 /* imageSliderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageSliderCell.swift; sourceTree = "<group>"; };
 		CE3981692369ACEE009212A2 /* propertiesDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = propertiesDetailViewController.swift; sourceTree = "<group>"; };
-		CE39816C2369ADCF009212A2 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		CE4A8C03237D5FC400C47023 /* SignupRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupRouter.swift; sourceTree = "<group>"; };
+		CE4A8C42237DD3AC00C47023 /* Validations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validations.swift; sourceTree = "<group>"; };
+		CE4A8C45237DD74D00C47023 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		CE4A8C46237DD74D00C47023 /* ExpFloatingLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		CE4A8C47237DD74D00C47023 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		CE4A8C48237DD74D00C47023 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
 		CE686D3D23672DD900E365E8 /* RangeSeekSliderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSeekSliderDelegate.swift; sourceTree = "<group>"; };
 		CE686D3E23672DD900E365E8 /* RangeSeekSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSeekSlider.swift; sourceTree = "<group>"; };
 		CE686D3F23672DD900E365E8 /* TapticEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapticEngine.swift; sourceTree = "<group>"; };
@@ -85,9 +124,12 @@
 		CE6B7542235DAF3F0055480B /* CustomUIProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIProperties.swift; sourceTree = "<group>"; };
 		CE6B7549235DDB520055480B /* SignupGoogleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupGoogleViewController.swift; sourceTree = "<group>"; };
 		CE7E9D72236075D300E35129 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		CE7E9D7423607C5900E35129 /* AddNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNumberViewController.swift; sourceTree = "<group>"; };
 		CE9BFAE12366FA890039FAD5 /* RangeSliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSliderViewController.swift; sourceTree = "<group>"; };
-		CEC458AA235F001200F339DA /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
+		CEA862A22382B73B003760E5 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		CEA862A42382BC0F003760E5 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		CEA862A62382BC1D003760E5 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		CEA862A82382BC4B003760E5 /* LoginModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModels.swift; sourceTree = "<group>"; };
+		CEA862AA2382BC58003760E5 /* LoginProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,19 +137,138 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BED1E8AC6E68C5FCC63EC109 /* Pods_LeaseMaster.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CE39816B2369ADB3009212A2 /* FiltersViewControllers */ = {
+		B115A54EA59F5B3600387458 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CE1A45B72361B56300618DBF /* PaymentViewController.swift */,
-				CE39816C2369ADCF009212A2 /* TableViewCell.swift */,
+				5AA22065F435EF7683E3B714 /* Pods-LeaseMaster.debug.xcconfig */,
+				7CC3526E0D15689A65BBC0F5 /* Pods-LeaseMaster.release.xcconfig */,
 			);
-			path = FiltersViewControllers;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE318E8E2374235F009461F0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B7523235DA85C0055480B /* SignUpViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CE318E8F2374236A009461F0 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CE318E9223742431009461F0 /* SignupPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		CE318E902374237C009461F0 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CE318E99237426A5009461F0 /* SignupInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		CE318E9123742399009461F0 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				CE318E94237425F8009461F0 /* SignupModel.swift */,
+				CE318E9D23744198009461F0 /* RegistrationResponse.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		CE318E982374265D009461F0 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CE318E9623742649009461F0 /* SignupProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		CE34EBCC23855C8E00C04486 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CE34EBDA23855D3000C04486 /* ResetPasswordProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		CE34EBCD23855C9B00C04486 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				CE34EBD823855D1E00C04486 /* ResetPasswordModels.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		CE34EBCE23855CA300C04486 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CE1BCFF123608D5400DAE47A /* ResetPasswordViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CE34EBCF23855CA900C04486 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				CE34EBD223855CDD00C04486 /* ResetPasswordRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		CE34EBD023855CB000C04486 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CE34EBD423855CEE00C04486 /* ResetPasswordPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		CE34EBD123855CB700C04486 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CE34EBD623855D0B00C04486 /* ResetPasswordInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		CE4A8C02237D5F7900C47023 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				CE4A8C03237D5FC400C47023 /* SignupRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		CE4A8C05237D5FEC00C47023 /* ExternalLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				CE4A8C42237DD3AC00C47023 /* Validations.swift */,
+				CE6B7542235DAF3F0055480B /* CustomUIProperties.swift */,
+				CE4A8C44237DD74D00C47023 /* SkyFloatingLabelTextField */,
+			);
+			path = ExternalLibraries;
+			sourceTree = "<group>";
+		};
+		CE4A8C44237DD74D00C47023 /* SkyFloatingLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				CE4A8C45237DD74D00C47023 /* SkyFloatingLabelTextField.swift */,
+				CE4A8C46237DD74D00C47023 /* ExpFloatingLabelTextField.swift */,
+				CE4A8C47237DD74D00C47023 /* UITextField+fixCaretPosition.swift */,
+				CE4A8C48237DD74D00C47023 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+			);
+			path = SkyFloatingLabelTextField;
 			sourceTree = "<group>";
 		};
 		CE686D2E2366FEFE00E365E8 /* Sources */ = {
@@ -134,6 +295,8 @@
 			children = (
 				CE6B751E235DA85C0055480B /* LeaseMaster */,
 				CE6B751D235DA85C0055480B /* Products */,
+				B115A54EA59F5B3600387458 /* Pods */,
+				DC79A6385C3C574C0E3AEFAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,20 +311,21 @@
 		CE6B751E235DA85C0055480B /* LeaseMaster */ = {
 			isa = PBXGroup;
 			children = (
+				CE4A8C05237D5FEC00C47023 /* ExternalLibraries */,
 				CE7E9D7623607CFF00E35129 /* OnboardingModule */,
 				CEB6F4AE2371F54600E94BE4 /* HomeModule */,
-				CEB6F4AF2371F5D800E94BE4 /* SearchModule */,
-				CE39816B2369ADB3009212A2 /* FiltersViewControllers */,
 				CE686D3C23672DD900E365E8 /* RangeSleekSlider */,
 				CE7E9D7723607D2B00E35129 /* MemberPlanFiles */,
 				CEB6F4B02371F5E300E94BE4 /* ProfileModule */,
 				CE6B7525235DA85C0055480B /* Main.storyboard */,
 				CE6B751F235DA85C0055480B /* AppDelegate.swift */,
 				CE6B7521235DA85C0055480B /* SceneDelegate.swift */,
+				CE318E9B237426D8009461F0 /* Constants.swift */,
 				CE6B752B235DA85D0055480B /* Assets.xcassets */,
 				CE6B7541235DAC710055480B /* fonts */,
 				CE6B752D235DA85D0055480B /* LaunchScreen.storyboard */,
 				CE6B7530235DA85D0055480B /* Info.plist */,
+				CE34EBCA2383F44600C04486 /* credentials.plist */,
 				CE6B7528235DA85C0055480B /* LeaseMaster.xcdatamodeld */,
 				CE686D2E2366FEFE00E365E8 /* Sources */,
 			);
@@ -188,6 +352,7 @@
 			children = (
 				CEB6F4AD2371F3EA00E94BE4 /* ResetPasswordModule */,
 				CEB6F4AB2371F0E700E94BE4 /* SignupModule */,
+				CEB6F4AC2371F14000E94BE4 /* SignUpWithSocialMedia */,
 				CEB6F4AA2371F02300E94BE4 /* LoginModule */,
 			);
 			path = OnboardingModule;
@@ -198,16 +363,69 @@
 			children = (
 				CE68922A23605F880065CA13 /* MemberPlanViewController.swift */,
 				CE689226235F56560065CA13 /* MemberPlanCollectionViewCell.swift */,
-				CE6B7542235DAF3F0055480B /* CustomUIProperties.swift */,
 				CE689228236057F10065CA13 /* MemberPlanClass.swift */,
 			);
 			path = MemberPlanFiles;
 			sourceTree = "<group>";
 		};
-		CEB6F4AA2371F02300E94BE4 /* LoginModule */ = {
+		CEA8629C2382B674003760E5 /* view */ = {
 			isa = PBXGroup;
 			children = (
 				CE7E9D72236075D300E35129 /* LoginViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CEA8629D2382B67C003760E5 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				CEA862A22382B73B003760E5 /* LoginRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		CEA8629E2382B68B003760E5 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CEA862A42382BC0F003760E5 /* LoginPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		CEA8629F2382B692003760E5 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CEA862A62382BC1D003760E5 /* LoginInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		CEA862A02382B713003760E5 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				CEA862A82382BC4B003760E5 /* LoginModels.swift */,
+				CE34EBC82382D9C500C04486 /* LoginResponse.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		CEA862A12382B719003760E5 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CEA862AA2382BC58003760E5 /* LoginProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		CEB6F4AA2371F02300E94BE4 /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				CEA862A12382B719003760E5 /* protocols */,
+				CEA862A02382B713003760E5 /* entity */,
+				CEA8629F2382B692003760E5 /* interactor */,
+				CEA8629E2382B68B003760E5 /* presenter */,
+				CEA8629D2382B67C003760E5 /* router */,
+				CEA8629C2382B674003760E5 /* view */,
 			);
 			path = LoginModule;
 			sourceTree = "<group>";
@@ -215,10 +433,12 @@
 		CEB6F4AB2371F0E700E94BE4 /* SignupModule */ = {
 			isa = PBXGroup;
 			children = (
-				CE6B7523235DA85C0055480B /* SignUpViewController.swift */,
-				CEC458AA235F001200F339DA /* VerificationViewController.swift */,
-				CE7E9D7423607C5900E35129 /* AddNumberViewController.swift */,
-				CEB6F4AC2371F14000E94BE4 /* SignUpWithSocialMedia */,
+				CE318E982374265D009461F0 /* protocols */,
+				CE318E9123742399009461F0 /* entity */,
+				CE318E902374237C009461F0 /* interactor */,
+				CE318E8F2374236A009461F0 /* presenter */,
+				CE4A8C02237D5F7900C47023 /* router */,
+				CE318E8E2374235F009461F0 /* view */,
 			);
 			path = SignupModule;
 			sourceTree = "<group>";
@@ -234,8 +454,12 @@
 		CEB6F4AD2371F3EA00E94BE4 /* ResetPasswordModule */ = {
 			isa = PBXGroup;
 			children = (
-				CE1BCFF323608DBF00DAE47A /* CreatePasswordViewController.swift */,
-				CE1BCFF123608D5400DAE47A /* ResetPasswordViewController.swift */,
+				CE34EBCC23855C8E00C04486 /* protocols */,
+				CE34EBCD23855C9B00C04486 /* entity */,
+				CE34EBD123855CB700C04486 /* interactor */,
+				CE34EBD023855CB000C04486 /* presenter */,
+				CE34EBCF23855CA900C04486 /* router */,
+				CE34EBCE23855CA300C04486 /* view */,
 			);
 			path = ResetPasswordModule;
 			sourceTree = "<group>";
@@ -254,13 +478,6 @@
 			path = HomeModule;
 			sourceTree = "<group>";
 		};
-		CEB6F4AF2371F5D800E94BE4 /* SearchModule */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SearchModule;
-			sourceTree = "<group>";
-		};
 		CEB6F4B02371F5E300E94BE4 /* ProfileModule */ = {
 			isa = PBXGroup;
 			children = (
@@ -276,6 +493,14 @@
 			path = DetailModule;
 			sourceTree = "<group>";
 		};
+		DC79A6385C3C574C0E3AEFAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25653B9B99745D1271EA6991 /* Pods_LeaseMaster.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -283,9 +508,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE6B7533235DA85D0055480B /* Build configuration list for PBXNativeTarget "LeaseMaster" */;
 			buildPhases = (
+				7F4DBA24030FAE1B7FEA340C /* [CP] Check Pods Manifest.lock */,
 				CE6B7518235DA85C0055480B /* Sources */,
 				CE6B7519235DA85C0055480B /* Frameworks */,
 				CE6B751A235DA85C0055480B /* Resources */,
+				63682F1D6F389B7D763C5E87 /* [CP] Embed Pods Frameworks */,
+				6B84AAD13C036E2DE8FC9BE0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -339,6 +567,7 @@
 				CE6B7546235DB4A40055480B /* Gilroy-Light.ttf in Resources */,
 				CE6B7547235DB4A40055480B /* Gilroy-Medium.ttf in Resources */,
 				CE3981662369ACD9009212A2 /* TableViewCell.xib in Resources */,
+				CE34EBCB2383F44600C04486 /* credentials.plist in Resources */,
 				CE6B7548235DB4A40055480B /* Gilroy-Regular.ttf in Resources */,
 				CE6B752F235DA85D0055480B /* LaunchScreen.storyboard in Resources */,
 				CE3981622369ACCC009212A2 /* SliderCell.xib in Resources */,
@@ -352,6 +581,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		63682F1D6F389B7D763C5E87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeaseMaster/Pods-LeaseMaster-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeaseMaster/Pods-LeaseMaster-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LeaseMaster/Pods-LeaseMaster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B84AAD13C036E2DE8FC9BE0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeaseMaster/Pods-LeaseMaster-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeaseMaster/Pods-LeaseMaster-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LeaseMaster/Pods-LeaseMaster-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F4DBA24030FAE1B7FEA340C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LeaseMaster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE6B7518235DA85C0055480B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -361,27 +649,45 @@
 				CE6B7524235DA85C0055480B /* SignUpViewController.swift in Sources */,
 				CE68922B23605F880065CA13 /* MemberPlanViewController.swift in Sources */,
 				CE39816A2369ACEE009212A2 /* propertiesDetailViewController.swift in Sources */,
+				CE4A8C04237D5FC400C47023 /* SignupRouter.swift in Sources */,
 				CE9BFAE22366FA890039FAD5 /* RangeSliderViewController.swift in Sources */,
+				CE34EBC92382D9C500C04486 /* LoginResponse.swift in Sources */,
+				CE318E9C237426D8009461F0 /* Constants.swift in Sources */,
 				CE6B7520235DA85C0055480B /* AppDelegate.swift in Sources */,
+				CEA862A32382B73B003760E5 /* LoginRouter.swift in Sources */,
 				CE6B754A235DDB520055480B /* SignupGoogleViewController.swift in Sources */,
+				CE34EBD723855D0B00C04486 /* ResetPasswordInteractor.swift in Sources */,
 				CE689227235F56560065CA13 /* MemberPlanCollectionViewCell.swift in Sources */,
+				CE318E9323742431009461F0 /* SignupPresenter.swift in Sources */,
+				CE34EBD523855CEE00C04486 /* ResetPasswordPresenter.swift in Sources */,
 				CE3981652369ACD9009212A2 /* SliderTableViewCell.swift in Sources */,
-				CE1BCFF423608DBF00DAE47A /* CreatePasswordViewController.swift in Sources */,
-				CE1A45B82361B56300618DBF /* PaymentViewController.swift in Sources */,
+				CE4A8C4C237DD74D00C47023 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
 				CE686D4023672DD900E365E8 /* RangeSeekSliderDelegate.swift in Sources */,
-				CE39816D2369ADCF009212A2 /* TableViewCell.swift in Sources */,
-				CE7E9D7523607C5900E35129 /* AddNumberViewController.swift in Sources */,
+				CE318E9723742649009461F0 /* SignupProtocols.swift in Sources */,
+				CE318E9A237426A5009461F0 /* SignupInteractor.swift in Sources */,
 				CE6B752A235DA85C0055480B /* LeaseMaster.xcdatamodeld in Sources */,
 				CE3981682369ACE0009212A2 /* imageSliderCell.swift in Sources */,
+				CE318E9E23744198009461F0 /* RegistrationResponse.swift in Sources */,
+				CE4A8C49237DD74D00C47023 /* SkyFloatingLabelTextField.swift in Sources */,
+				CE34EBDB23855D3000C04486 /* ResetPasswordProtocols.swift in Sources */,
 				CE686D4223672DD900E365E8 /* TapticEngine.swift in Sources */,
 				CE6B7543235DAF3F0055480B /* CustomUIProperties.swift in Sources */,
-				CEC458AB235F001200F339DA /* VerificationViewController.swift in Sources */,
+				CEA862A72382BC1D003760E5 /* LoginInteractor.swift in Sources */,
+				CE4A8C4A237DD74D00C47023 /* ExpFloatingLabelTextField.swift in Sources */,
+				CEA862AB2382BC58003760E5 /* LoginProtocols.swift in Sources */,
 				CE686D4123672DD900E365E8 /* RangeSeekSlider.swift in Sources */,
 				CE39815E2369ACC2009212A2 /* LandingPageViewController.swift in Sources */,
+				CEA862A52382BC0F003760E5 /* LoginPresenter.swift in Sources */,
 				CE1BCFF223608D5400DAE47A /* ResetPasswordViewController.swift in Sources */,
+				CE4A8C4B237DD74D00C47023 /* UITextField+fixCaretPosition.swift in Sources */,
+				CE318E95237425F8009461F0 /* SignupModel.swift in Sources */,
 				CE689229236057F10065CA13 /* MemberPlanClass.swift in Sources */,
 				CE6B7522235DA85C0055480B /* SceneDelegate.swift in Sources */,
+				CEA862A92382BC4B003760E5 /* LoginModels.swift in Sources */,
+				CE34EBD923855D1E00C04486 /* ResetPasswordModels.swift in Sources */,
+				CE4A8C43237DD3AC00C47023 /* Validations.swift in Sources */,
 				CE7E9D73236075D300E35129 /* LoginViewController.swift in Sources */,
+				CE34EBD323855CDD00C04486 /* ResetPasswordRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +829,7 @@
 		};
 		CE6B7534235DA85D0055480B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AA22065F435EF7683E3B714 /* Pods-LeaseMaster.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +848,7 @@
 		};
 		CE6B7535235DA85D0055480B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CC3526E0D15689A65BBC0F5 /* Pods-LeaseMaster.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
