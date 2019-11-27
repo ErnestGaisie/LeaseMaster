@@ -36,5 +36,69 @@
             landmarkType = "21">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "642B3214-F861-47A7-A87A-A87C48A694CE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeaseMaster/HomeModule/HomeDetailModule/propertiesDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC8838E1-3D63-4049-9846-22E7F0E8D4F5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeaseMaster/HomeModule/HomeDetailModule/propertiesDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FC8838E1-3D63-4049-9846-22E7F0E8D4F5 - 763fcbade03f213f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeaseMaster.propertiesDetailViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "LeaseMaster"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/isaac/Desktop/R_Projects/LeaseMaster/LeaseMaster/HomeModule/HomeDetailModule/propertiesDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1884">
+               </Location>
+               <Location
+                  uuid = "FC8838E1-3D63-4049-9846-22E7F0E8D4F5 - 111978533b2f96b7"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.UIImage&gt;, Swift.Optional&lt;__C.NSError&gt;, Kingfisher.CacheType, Swift.Optional&lt;Foundation.URL&gt;) -&gt; () in LeaseMaster.propertiesDetailViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "LeaseMaster"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/isaac/Desktop/R_Projects/LeaseMaster/LeaseMaster/HomeModule/HomeDetailModule/propertiesDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "209">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

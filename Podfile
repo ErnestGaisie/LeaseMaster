@@ -12,5 +12,5 @@ target 'LeaseMaster' do
     pod 'RealmSwift'
     pod 'SwiftyJSON'
     pod 'SVProgressHUD'
-    pod 'ZKCarousel'
+    pod 'Kingfisher'
 end
