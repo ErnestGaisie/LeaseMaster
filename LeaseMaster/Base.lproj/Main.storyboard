@@ -1198,14 +1198,6 @@
             </objects>
             <point key="canvasLocation" x="-230" y="2431"/>
         </scene>
-        <!--Storyboard Reference-->
-        <scene sceneID="jii-0k-Dbq">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="SearchStoryboard" id="GhI-fJ-Siy" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5EP-A6-WWX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1148" y="2193"/>
-        </scene>
         <!--Create Password View Controller-->
         <scene sceneID="l9S-F2-QVe">
             <objects>
