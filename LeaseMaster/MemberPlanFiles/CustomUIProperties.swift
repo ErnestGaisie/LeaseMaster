@@ -79,21 +79,6 @@ func setupTextfields(textField:UITextField){
    
 }
 
-func setupAccountTextfields(textField:UITextField){
-    textField.layer.cornerRadius = 4.0
- 
-   
-    
-    
-     // Create a padding view for padding on left
-    textField.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 15, height: textField.frame.height))
-    textField.leftViewMode = .always
-           
-    // Create a padding view for padding on right
-    textField.rightView = UIView(frame: CGRect(x: 0, y: 0, width: 15, height: textField.frame.height))
-    textField.rightViewMode = .always
-   
-}
 
 func setupButtonStyle(button:UIButton){
        button.layer.cornerRadius = 4.0
