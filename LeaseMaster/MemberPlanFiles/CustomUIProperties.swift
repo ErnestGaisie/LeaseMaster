@@ -79,7 +79,6 @@ func setupTextfields(textField:UITextField){
    
 }
 
-
 func setupButtonStyle(button:UIButton){
        button.layer.cornerRadius = 4.0
        
