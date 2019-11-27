@@ -1,5 +1,7 @@
 PODS:
   - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
   - AlamofireObjectMapper (5.2.1):
     - Alamofire (~> 4.7)
     - ObjectMapper (~> 3.4)
@@ -51,21 +53,26 @@ PODS:
   - RealmSwift (3.20.0):
     - Realm (= 3.20.0)
   - SwiftyJSON (5.0.0)
+  - ZKCarousel (1.0.1)
 
 DEPENDENCIES:
   - Alamofire
+  - AlamofireImage
   - AlamofireObjectMapper
   - FacebookCore
   - FacebookLogin
   - FacebookShare
   - FBSDKLoginKit
   - GoogleSignIn
+  - ObjectMapper (~> 3.4)
   - RealmSwift
   - SwiftyJSON
+  - ZKCarousel
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - AlamofireImage
     - AlamofireObjectMapper
     - AppAuth
     - FacebookCore
@@ -81,9 +88,11 @@ SPEC REPOS:
     - Realm
     - RealmSwift
     - SwiftyJSON
+    - ZKCarousel
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
   AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
   AppAuth: bce82c76043657c99d91e7882e8a9e1a93650cd4
   FacebookCore: ba86524b66cfa86d0f8e65d08faa8504a9f732dd
@@ -99,7 +108,8 @@ SPEC CHECKSUMS:
   Realm: 8b2ca5bc6479a91f379b6b42b5922e396cd5ba5a
   RealmSwift: 1949ef26a279e1845bd51d591b9103adfcd121df
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  ZKCarousel: 0ff2bb7f40bb8389e1be6e8b17f534febf566c40
 
-PODFILE CHECKSUM: 2b60db6c760fd32276cdd4c87412f20424c0e17d
+PODFILE CHECKSUM: 3266ea474e2b1de979be394a24f73087c3180b45
 
-COCOAPODS: 1.8.3
+COCOAPODS: 1.8.4
