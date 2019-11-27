@@ -6,8 +6,9 @@
 	objectVersion = 51;
 	objects = {
 
-/* Begin PBXBuildFile section */
+
 		BED1E8AC6E68C5FCC63EC109 /* Pods_LeaseMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25653B9B99745D1271EA6991 /* Pods_LeaseMaster.framework */; };
+
 		CE1BCFF223608D5400DAE47A /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BCFF123608D5400DAE47A /* ResetPasswordViewController.swift */; };
 		CE318E9323742431009461F0 /* SignupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE318E9223742431009461F0 /* SignupPresenter.swift */; };
 		CE318E95237425F8009461F0 /* SignupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE318E94237425F8009461F0 /* SignupModel.swift */; };
@@ -68,9 +69,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+
 		25653B9B99745D1271EA6991 /* Pods_LeaseMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeaseMaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AA22065F435EF7683E3B714 /* Pods-LeaseMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeaseMaster.debug.xcconfig"; path = "Target Support Files/Pods-LeaseMaster/Pods-LeaseMaster.debug.xcconfig"; sourceTree = "<group>"; };
 		7CC3526E0D15689A65BBC0F5 /* Pods-LeaseMaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeaseMaster.release.xcconfig"; path = "Target Support Files/Pods-LeaseMaster/Pods-LeaseMaster.release.xcconfig"; sourceTree = "<group>"; };
+
 		CE1BCFF123608D5400DAE47A /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		CE318E9223742431009461F0 /* SignupPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupPresenter.swift; sourceTree = "<group>"; };
 		CE318E94237425F8009461F0 /* SignupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupModel.swift; sourceTree = "<group>"; };
@@ -125,11 +128,13 @@
 		CE6B7549235DDB520055480B /* SignupGoogleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupGoogleViewController.swift; sourceTree = "<group>"; };
 		CE7E9D72236075D300E35129 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CE9BFAE12366FA890039FAD5 /* RangeSliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSliderViewController.swift; sourceTree = "<group>"; };
+
 		CEA862A22382B73B003760E5 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
 		CEA862A42382BC0F003760E5 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		CEA862A62382BC1D003760E5 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
 		CEA862A82382BC4B003760E5 /* LoginModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModels.swift; sourceTree = "<group>"; };
 		CEA862AA2382BC58003760E5 /* LoginProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocols.swift; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,14 +142,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+
 				BED1E8AC6E68C5FCC63EC109 /* Pods_LeaseMaster.framework in Frameworks */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+
 		B115A54EA59F5B3600387458 /* Pods */ = {
+
 			isa = PBXGroup;
 			children = (
 				5AA22065F435EF7683E3B714 /* Pods-LeaseMaster.debug.xcconfig */,
@@ -295,8 +304,10 @@
 			children = (
 				CE6B751E235DA85C0055480B /* LeaseMaster */,
 				CE6B751D235DA85C0055480B /* Products */,
+
 				B115A54EA59F5B3600387458 /* Pods */,
 				DC79A6385C3C574C0E3AEFAF /* Frameworks */,
+
 			);
 			sourceTree = "<group>";
 		};
@@ -311,9 +322,11 @@
 		CE6B751E235DA85C0055480B /* LeaseMaster */ = {
 			isa = PBXGroup;
 			children = (
+
 				CE4A8C05237D5FEC00C47023 /* ExternalLibraries */,
 				CE7E9D7623607CFF00E35129 /* OnboardingModule */,
 				CEB6F4AE2371F54600E94BE4 /* HomeModule */,
+
 				CE686D3C23672DD900E365E8 /* RangeSleekSlider */,
 				CE7E9D7723607D2B00E35129 /* MemberPlanFiles */,
 				CEB6F4B02371F5E300E94BE4 /* ProfileModule */,
@@ -493,14 +506,18 @@
 			path = DetailModule;
 			sourceTree = "<group>";
 		};
+
 		DC79A6385C3C574C0E3AEFAF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				25653B9B99745D1271EA6991 /* Pods_LeaseMaster.framework */,
+
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+
+
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -508,12 +525,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE6B7533235DA85D0055480B /* Build configuration list for PBXNativeTarget "LeaseMaster" */;
 			buildPhases = (
+
 				7F4DBA24030FAE1B7FEA340C /* [CP] Check Pods Manifest.lock */,
 				CE6B7518235DA85C0055480B /* Sources */,
 				CE6B7519235DA85C0055480B /* Frameworks */,
 				CE6B751A235DA85C0055480B /* Resources */,
 				63682F1D6F389B7D763C5E87 /* [CP] Embed Pods Frameworks */,
 				6B84AAD13C036E2DE8FC9BE0 /* [CP] Copy Pods Resources */,
+
 			);
 			buildRules = (
 			);
@@ -566,6 +585,7 @@
 				CE6B7545235DB4A40055480B /* Gilroy-Heavy.ttf in Resources */,
 				CE6B7546235DB4A40055480B /* Gilroy-Light.ttf in Resources */,
 				CE6B7547235DB4A40055480B /* Gilroy-Medium.ttf in Resources */,
+				5F98C1E52372F532003B4F07 /* Search.storyboard in Resources */,
 				CE3981662369ACD9009212A2 /* TableViewCell.xib in Resources */,
 				CE34EBCB2383F44600C04486 /* credentials.plist in Resources */,
 				CE6B7548235DB4A40055480B /* Gilroy-Regular.ttf in Resources */,
@@ -574,6 +594,7 @@
 				CE6B752C235DA85D0055480B /* Assets.xcassets in Resources */,
 				CE6B7527235DA85C0055480B /* Main.storyboard in Resources */,
 				CE6B753B235DAB990055480B /* Radomir Tinkov Free Font EULA .pdf in Resources */,
+				5F75AD7B23831C530040F300 /* Profile.storyboard in Resources */,
 				CE6B753A235DAB990055480B /* Gilroy-Light.otf in Resources */,
 				CE6B7539235DAB990055480B /* Gilroy-ExtraBold.otf in Resources */,
 			);
@@ -582,12 +603,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+
 		63682F1D6F389B7D763C5E87 /* [CP] Embed Pods Frameworks */ = {
+
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+
 				"${PODS_ROOT}/Target Support Files/Pods-LeaseMaster/Pods-LeaseMaster-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -617,11 +641,13 @@
 			showEnvVarsInLog = 0;
 		};
 		7F4DBA24030FAE1B7FEA340C /* [CP] Check Pods Manifest.lock */ = {
+
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
@@ -636,6 +662,7 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -645,24 +672,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F68747D238D30E600CBF173 /* imagesEntity.swift in Sources */,
+				5F75AD722382ED4D0040F300 /* SearchPresenter.swift in Sources */,
 				CE3981612369ACCC009212A2 /* SliderCell.swift in Sources */,
+				5F75AD7D23832A210040F300 /* AccountViewController.swift in Sources */,
 				CE6B7524235DA85C0055480B /* SignUpViewController.swift in Sources */,
+				5F68747A238C46A200CBF173 /* searchPropertyTableViewCell.swift in Sources */,
+				5F75AD8223841B6D0040F300 /* PersonalInfoViewController.swift in Sources */,
 				CE68922B23605F880065CA13 /* MemberPlanViewController.swift in Sources */,
+				5F75AD7F23833A380040F300 /* LoginSecurityViewController.swift in Sources */,
 				CE39816A2369ACEE009212A2 /* propertiesDetailViewController.swift in Sources */,
 				CE4A8C04237D5FC400C47023 /* SignupRouter.swift in Sources */,
 				CE9BFAE22366FA890039FAD5 /* RangeSliderViewController.swift in Sources */,
+
 				CE34EBC92382D9C500C04486 /* LoginResponse.swift in Sources */,
 				CE318E9C237426D8009461F0 /* Constants.swift in Sources */,
+
 				CE6B7520235DA85C0055480B /* AppDelegate.swift in Sources */,
 				CEA862A32382B73B003760E5 /* LoginRouter.swift in Sources */,
 				CE6B754A235DDB520055480B /* SignupGoogleViewController.swift in Sources */,
+
 				CE34EBD723855D0B00C04486 /* ResetPasswordInteractor.swift in Sources */,
 				CE689227235F56560065CA13 /* MemberPlanCollectionViewCell.swift in Sources */,
 				CE318E9323742431009461F0 /* SignupPresenter.swift in Sources */,
 				CE34EBD523855CEE00C04486 /* ResetPasswordPresenter.swift in Sources */,
+
 				CE3981652369ACD9009212A2 /* SliderTableViewCell.swift in Sources */,
 				CE4A8C4C237DD74D00C47023 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
 				CE686D4023672DD900E365E8 /* RangeSeekSliderDelegate.swift in Sources */,
+
 				CE318E9723742649009461F0 /* SignupProtocols.swift in Sources */,
 				CE318E9A237426A5009461F0 /* SignupInteractor.swift in Sources */,
 				CE6B752A235DA85C0055480B /* LeaseMaster.xcdatamodeld in Sources */,
@@ -675,7 +713,10 @@
 				CEA862A72382BC1D003760E5 /* LoginInteractor.swift in Sources */,
 				CE4A8C4A237DD74D00C47023 /* ExpFloatingLabelTextField.swift in Sources */,
 				CEA862AB2382BC58003760E5 /* LoginProtocols.swift in Sources */,
+
 				CE686D4123672DD900E365E8 /* RangeSeekSlider.swift in Sources */,
+				5F75AD702382ECC30040F300 /* SearchViewController.swift in Sources */,
+				5F75AD742382ED610040F300 /* SearchInteractor.swift in Sources */,
 				CE39815E2369ACC2009212A2 /* LandingPageViewController.swift in Sources */,
 				CEA862A52382BC0F003760E5 /* LoginPresenter.swift in Sources */,
 				CE1BCFF223608D5400DAE47A /* ResetPasswordViewController.swift in Sources */,
@@ -687,7 +728,9 @@
 				CE34EBD923855D1E00C04486 /* ResetPasswordModels.swift in Sources */,
 				CE4A8C43237DD3AC00C47023 /* Validations.swift in Sources */,
 				CE7E9D73236075D300E35129 /* LoginViewController.swift in Sources */,
+
 				CE34EBD323855CDD00C04486 /* ResetPasswordRouter.swift in Sources */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -829,7 +872,9 @@
 		};
 		CE6B7534235DA85D0055480B /* Debug */ = {
 			isa = XCBuildConfiguration;
+
 			baseConfigurationReference = 5AA22065F435EF7683E3B714 /* Pods-LeaseMaster.debug.xcconfig */;
+
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -839,16 +884,20 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.qodehub.LeaseMaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s";
 			};
 			name = Debug;
 		};
 		CE6B7535235DA85D0055480B /* Release */ = {
 			isa = XCBuildConfiguration;
+
 			baseConfigurationReference = 7CC3526E0D15689A65BBC0F5 /* Pods-LeaseMaster.release.xcconfig */;
+
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -862,6 +911,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s";
 			};
 			name = Release;
 		};
