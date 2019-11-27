@@ -9,7 +9,7 @@
 import UIKit
 
 class ResetPasswordViewController: UIViewController {
-    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var emailTextField: ExpFloatingLabelTextField!
     
         @IBOutlet weak var submitButton: UIButton!
     override func viewDidLoad() {
