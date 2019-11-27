@@ -79,9 +79,12 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
             SearchPropertyPresenter.sharedInstance.callFetchproperties(location: selectedLocation)
             
         }
+        let storyboard = UIStoryboard.init(name: "Search", bundle: nil)
+        
+        let foundPropertiesViewController = (storyboard.instantiateViewController(withIdentifier: "foundProperties") as? searchPropertyViewController)!
         
         
-        navigationController?.pushViewController(searchPropertyTableView, animated: true)
+       navigationController?.pushViewController(foundPropertiesViewController, animated: true)
 
         //tableView.reloadData()
     }

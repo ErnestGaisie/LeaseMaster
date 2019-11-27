@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,7 +15,7 @@
         <!--Search View Controller-->
         <scene sceneID="EU8-WC-Yre">
             <objects>
-                <viewController storyboardIdentifier="SearchStoryboard" id="gn1-y1-qjN" customClass="SearchViewController" customModule="LeaseMaster" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SearchStoryboard" modalPresentationStyle="fullScreen" id="gn1-y1-qjN" customClass="SearchViewController" customModule="LeaseMaster" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="siD-FA-06k">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -70,7 +70,6 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="locationLabel" destination="lby-So-XZ8" id="2Hn-z2-Eps"/>
-                                            <segue destination="Df2-lD-RhS" kind="show" id="dLt-Wa-DaF"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -87,6 +86,7 @@
                     <connections>
                         <outlet property="searchBar" destination="gzD-kp-Pm9" id="eNF-Rr-oTZ"/>
                         <outlet property="tableView" destination="T65-4L-xyH" id="KDD-Gj-csm"/>
+                        <segue destination="Df2-lD-RhS" kind="show" id="CR2-SR-Lb7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R1Y-eI-s8Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -96,7 +96,7 @@
         <!--Search Property View Controller-->
         <scene sceneID="WDO-um-Ngg">
             <objects>
-                <viewController id="Df2-lD-RhS" customClass="searchPropertyViewController" customModule="LeaseMaster" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="foundProperties" modalPresentationStyle="fullScreen" id="Df2-lD-RhS" customClass="searchPropertyViewController" customModule="LeaseMaster" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="S9m-Wu-eE3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -113,14 +113,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="330"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FLAT . 3 BEDS . 3 BATHS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5SR-TY-PWy">
-                                                    <rect key="frame" x="43" y="263" width="127.5" height="12"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="FLAT . 3 BEDS . 3 BATHS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5SR-TY-PWy">
+                                                    <rect key="frame" x="43" y="263" width="137.5" height="12"/>
                                                     <fontDescription key="fontDescription" name="Gilroy-Medium" family="Gilroy-Medium" pointSize="12"/>
                                                     <color key="textColor" red="0.46274509803921571" green="0.46274509803921571" blue="0.46274509803921571" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beautiful House in East Legon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwl-QY-tfo">
-                                                    <rect key="frame" x="43" y="279" width="244.5" height="18"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Beautiful House in East Legon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwl-QY-tfo">
+                                                    <rect key="frame" x="43" y="279" width="242.5" height="18"/>
                                                     <fontDescription key="fontDescription" name="Gilroy-Medium" family="Gilroy-Medium" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -188,7 +188,7 @@
         <!--Navigation Controller-->
         <scene sceneID="8yK-95-7ac">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Qro-g4-Vuy" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="naviboo" automaticallyAdjustsScrollViewInsets="NO" id="Qro-g4-Vuy" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tdq-II-Osg">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

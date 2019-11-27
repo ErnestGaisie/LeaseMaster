@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         var searchStoryboard: UIStoryboard!
         searchStoryboard = UIStoryboard(name: "Search", bundle: nil)
         
-        let viewController: UIViewController = searchStoryboard.instantiateViewController(identifier: "SearchStoryboard") as UIViewController
+        let viewController: UIViewController = searchStoryboard.instantiateViewController(identifier: "naviboo") as UINavigationController
         self.window!.rootViewController = viewController
         
         
