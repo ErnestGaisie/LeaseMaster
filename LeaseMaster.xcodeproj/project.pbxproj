@@ -3,10 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09465EF3BE4E01E3DDAB29D4 /* Pods_LeaseMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F433C6CEAC38F4652CBD74A /* Pods_LeaseMaster.framework */; };
+		5F0F99D4237421E1000662E5 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0F99D3237421E1000662E5 /* SearchTableViewCell.swift */; };
+		5F687473238C265B00CBF173 /* searchPropertyInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F687472238C265B00CBF173 /* searchPropertyInteractor.swift */; };
+		5F687475238C26A200CBF173 /* SearchPropertyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F687474238C26A200CBF173 /* SearchPropertyPresenter.swift */; };
+		5F687477238C270400CBF173 /* searchPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F687476238C270400CBF173 /* searchPropertyViewController.swift */; };
+		5F68747A238C46A200CBF173 /* searchPropertyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F687478238C46A200CBF173 /* searchPropertyTableViewCell.swift */; };
+		5F68747D238D30E600CBF173 /* imagesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68747C238D30E600CBF173 /* imagesEntity.swift */; };
+		5F75AD702382ECC30040F300 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F75AD6F2382ECC30040F300 /* SearchViewController.swift */; };
+		5F75AD722382ED4D0040F300 /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F75AD712382ED4D0040F300 /* SearchPresenter.swift */; };
+		5F75AD742382ED610040F300 /* SearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F75AD732382ED610040F300 /* SearchInteractor.swift */; };
+		5F75AD762382EE060040F300 /* SearchLocationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F75AD752382EE060040F300 /* SearchLocationEntity.swift */; };
+		5F75AD782382EE710040F300 /* SearchPropertyEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F75AD772382EE710040F300 /* SearchPropertyEntity.swift */; };
+		5F75AD7B23831C530040F300 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F75AD7A23831C530040F300 /* Profile.storyboard */; };
+		5F75AD7D23832A210040F300 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F75AD7C23832A210040F300 /* AccountViewController.swift */; };
+		5F75AD7F23833A380040F300 /* LoginSecurityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F75AD7E23833A380040F300 /* LoginSecurityViewController.swift */; };
+		5F75AD8223841B6D0040F300 /* PersonalInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F75AD8123841B6D0040F300 /* PersonalInfoViewController.swift */; };
+		5F75AD8423843E120040F300 /* PersonalInfoDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F75AD8323843E110040F300 /* PersonalInfoDetailTableViewCell.swift */; };
+		5F98C1E52372F532003B4F07 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F98C1E42372F532003B4F07 /* Search.storyboard */; };
 		CE1A45B82361B56300618DBF /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A45B72361B56300618DBF /* PaymentViewController.swift */; };
 		CE1BCFF223608D5400DAE47A /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BCFF123608D5400DAE47A /* ResetPasswordViewController.swift */; };
 		CE1BCFF423608DBF00DAE47A /* CreatePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BCFF323608DBF00DAE47A /* CreatePasswordViewController.swift */; };
@@ -48,6 +66,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F0F99D3237421E1000662E5 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		5F433C6CEAC38F4652CBD74A /* Pods_LeaseMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeaseMaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F687472238C265B00CBF173 /* searchPropertyInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchPropertyInteractor.swift; sourceTree = "<group>"; };
+		5F687474238C26A200CBF173 /* SearchPropertyPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPropertyPresenter.swift; sourceTree = "<group>"; };
+		5F687476238C270400CBF173 /* searchPropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchPropertyViewController.swift; sourceTree = "<group>"; };
+		5F687478238C46A200CBF173 /* searchPropertyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchPropertyTableViewCell.swift; sourceTree = "<group>"; };
+		5F68747C238D30E600CBF173 /* imagesEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imagesEntity.swift; sourceTree = "<group>"; };
+		5F75AD6F2382ECC30040F300 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		5F75AD712382ED4D0040F300 /* SearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
+		5F75AD732382ED610040F300 /* SearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInteractor.swift; sourceTree = "<group>"; };
+		5F75AD752382EE060040F300 /* SearchLocationEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLocationEntity.swift; sourceTree = "<group>"; };
+		5F75AD772382EE710040F300 /* SearchPropertyEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPropertyEntity.swift; sourceTree = "<group>"; };
+		5F75AD7A23831C530040F300 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		5F75AD7C23832A210040F300 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		5F75AD7E23833A380040F300 /* LoginSecurityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSecurityViewController.swift; sourceTree = "<group>"; };
+		5F75AD8123841B6D0040F300 /* PersonalInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoViewController.swift; sourceTree = "<group>"; };
+		5F75AD8323843E110040F300 /* PersonalInfoDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoDetailTableViewCell.swift; sourceTree = "<group>"; };
+		5F98C1E42372F532003B4F07 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		94988CCDF343DF0D92BF9045 /* Pods-LeaseMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeaseMaster.debug.xcconfig"; path = "Target Support Files/Pods-LeaseMaster/Pods-LeaseMaster.debug.xcconfig"; sourceTree = "<group>"; };
 		CE1A45B72361B56300618DBF /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		CE1BCFF123608D5400DAE47A /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		CE1BCFF323608DBF00DAE47A /* CreatePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +125,7 @@
 		CE7E9D7423607C5900E35129 /* AddNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNumberViewController.swift; sourceTree = "<group>"; };
 		CE9BFAE12366FA890039FAD5 /* RangeSliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSliderViewController.swift; sourceTree = "<group>"; };
 		CEC458AA235F001200F339DA /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
+		EB15F8AF59DDEC23B1C3E125 /* Pods-LeaseMaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeaseMaster.release.xcconfig"; path = "Target Support Files/Pods-LeaseMaster/Pods-LeaseMaster.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,12 +133,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09465EF3BE4E01E3DDAB29D4 /* Pods_LeaseMaster.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F687471238C25F000CBF173 /* SearchDetail */ = {
+			isa = PBXGroup;
+			children = (
+				5F687476238C270400CBF173 /* searchPropertyViewController.swift */,
+				5F687474238C26A200CBF173 /* SearchPropertyPresenter.swift */,
+				5F687472238C265B00CBF173 /* searchPropertyInteractor.swift */,
+				5F687478238C46A200CBF173 /* searchPropertyTableViewCell.swift */,
+				5F75AD772382EE710040F300 /* SearchPropertyEntity.swift */,
+				5F68747C238D30E600CBF173 /* imagesEntity.swift */,
+			);
+			path = SearchDetail;
+			sourceTree = "<group>";
+		};
+		5F75AD7923831B480040F300 /* ProfileModule */ = {
+			isa = PBXGroup;
+			children = (
+				5F75AD8023841B340040F300 /* PersonalInfo */,
+				5F75AD7A23831C530040F300 /* Profile.storyboard */,
+				5F75AD7C23832A210040F300 /* AccountViewController.swift */,
+				5F75AD7E23833A380040F300 /* LoginSecurityViewController.swift */,
+			);
+			path = ProfileModule;
+			sourceTree = "<group>";
+		};
+		5F75AD8023841B340040F300 /* PersonalInfo */ = {
+			isa = PBXGroup;
+			children = (
+				5F75AD8123841B6D0040F300 /* PersonalInfoViewController.swift */,
+				5F75AD8323843E110040F300 /* PersonalInfoDetailTableViewCell.swift */,
+			);
+			path = PersonalInfo;
+			sourceTree = "<group>";
+		};
+		5F98C1E32372F501003B4F07 /* SearchModule */ = {
+			isa = PBXGroup;
+			children = (
+				5F687471238C25F000CBF173 /* SearchDetail */,
+				5F98C1E42372F532003B4F07 /* Search.storyboard */,
+				5F75AD6F2382ECC30040F300 /* SearchViewController.swift */,
+				5F75AD712382ED4D0040F300 /* SearchPresenter.swift */,
+				5F75AD732382ED610040F300 /* SearchInteractor.swift */,
+				5F0F99D3237421E1000662E5 /* SearchTableViewCell.swift */,
+				5F75AD752382EE060040F300 /* SearchLocationEntity.swift */,
+			);
+			path = SearchModule;
+			sourceTree = "<group>";
+		};
 		CE39816B2369ADB3009212A2 /* FiltersViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +220,8 @@
 			children = (
 				CE6B751E235DA85C0055480B /* LeaseMaster */,
 				CE6B751D235DA85C0055480B /* Products */,
+				E8E57D8ACB2054979B0CF1D9 /* Pods */,
+				D9C3AE52900B0EC48698607C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,9 +236,10 @@
 		CE6B751E235DA85C0055480B /* LeaseMaster */ = {
 			isa = PBXGroup;
 			children = (
+				5F75AD7923831B480040F300 /* ProfileModule */,
+				5F98C1E32372F501003B4F07 /* SearchModule */,
 				CE7E9D7623607CFF00E35129 /* OnboardingModule */,
 				CEB6F4AE2371F54600E94BE4 /* HomeModule */,
-				CEB6F4AF2371F5D800E94BE4 /* SearchModule */,
 				CE39816B2369ADB3009212A2 /* FiltersViewControllers */,
 				CE686D3C23672DD900E365E8 /* RangeSleekSlider */,
 				CE7E9D7723607D2B00E35129 /* MemberPlanFiles */,
@@ -254,13 +343,6 @@
 			path = HomeModule;
 			sourceTree = "<group>";
 		};
-		CEB6F4AF2371F5D800E94BE4 /* SearchModule */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SearchModule;
-			sourceTree = "<group>";
-		};
 		CEB6F4B02371F5E300E94BE4 /* ProfileModule */ = {
 			isa = PBXGroup;
 			children = (
@@ -276,6 +358,23 @@
 			path = DetailModule;
 			sourceTree = "<group>";
 		};
+		D9C3AE52900B0EC48698607C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F433C6CEAC38F4652CBD74A /* Pods_LeaseMaster.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8E57D8ACB2054979B0CF1D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94988CCDF343DF0D92BF9045 /* Pods-LeaseMaster.debug.xcconfig */,
+				EB15F8AF59DDEC23B1C3E125 /* Pods-LeaseMaster.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -283,9 +382,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE6B7533235DA85D0055480B /* Build configuration list for PBXNativeTarget "LeaseMaster" */;
 			buildPhases = (
+				96BE6E7D8B47AF4B625C3C05 /* [CP] Check Pods Manifest.lock */,
 				CE6B7518235DA85C0055480B /* Sources */,
 				CE6B7519235DA85C0055480B /* Frameworks */,
 				CE6B751A235DA85C0055480B /* Resources */,
+				C87C8661888D6860980B6C14 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -338,6 +439,7 @@
 				CE6B7545235DB4A40055480B /* Gilroy-Heavy.ttf in Resources */,
 				CE6B7546235DB4A40055480B /* Gilroy-Light.ttf in Resources */,
 				CE6B7547235DB4A40055480B /* Gilroy-Medium.ttf in Resources */,
+				5F98C1E52372F532003B4F07 /* Search.storyboard in Resources */,
 				CE3981662369ACD9009212A2 /* TableViewCell.xib in Resources */,
 				CE6B7548235DB4A40055480B /* Gilroy-Regular.ttf in Resources */,
 				CE6B752F235DA85D0055480B /* LaunchScreen.storyboard in Resources */,
@@ -345,6 +447,7 @@
 				CE6B752C235DA85D0055480B /* Assets.xcassets in Resources */,
 				CE6B7527235DA85C0055480B /* Main.storyboard in Resources */,
 				CE6B753B235DAB990055480B /* Radomir Tinkov Free Font EULA .pdf in Resources */,
+				5F75AD7B23831C530040F300 /* Profile.storyboard in Resources */,
 				CE6B753A235DAB990055480B /* Gilroy-Light.otf in Resources */,
 				CE6B7539235DAB990055480B /* Gilroy-ExtraBold.otf in Resources */,
 			);
@@ -352,36 +455,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		96BE6E7D8B47AF4B625C3C05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LeaseMaster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C87C8661888D6860980B6C14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeaseMaster/Pods-LeaseMaster-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeaseMaster/Pods-LeaseMaster-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LeaseMaster/Pods-LeaseMaster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE6B7518235DA85C0055480B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F68747D238D30E600CBF173 /* imagesEntity.swift in Sources */,
+				5F75AD722382ED4D0040F300 /* SearchPresenter.swift in Sources */,
 				CE3981612369ACCC009212A2 /* SliderCell.swift in Sources */,
+				5F75AD7D23832A210040F300 /* AccountViewController.swift in Sources */,
 				CE6B7524235DA85C0055480B /* SignUpViewController.swift in Sources */,
+				5F68747A238C46A200CBF173 /* searchPropertyTableViewCell.swift in Sources */,
+				5F75AD8223841B6D0040F300 /* PersonalInfoViewController.swift in Sources */,
 				CE68922B23605F880065CA13 /* MemberPlanViewController.swift in Sources */,
+				5F75AD7F23833A380040F300 /* LoginSecurityViewController.swift in Sources */,
 				CE39816A2369ACEE009212A2 /* propertiesDetailViewController.swift in Sources */,
 				CE9BFAE22366FA890039FAD5 /* RangeSliderViewController.swift in Sources */,
+				5F75AD782382EE710040F300 /* SearchPropertyEntity.swift in Sources */,
 				CE6B7520235DA85C0055480B /* AppDelegate.swift in Sources */,
 				CE6B754A235DDB520055480B /* SignupGoogleViewController.swift in Sources */,
+				5F75AD762382EE060040F300 /* SearchLocationEntity.swift in Sources */,
 				CE689227235F56560065CA13 /* MemberPlanCollectionViewCell.swift in Sources */,
+				5F0F99D4237421E1000662E5 /* SearchTableViewCell.swift in Sources */,
 				CE3981652369ACD9009212A2 /* SliderTableViewCell.swift in Sources */,
 				CE1BCFF423608DBF00DAE47A /* CreatePasswordViewController.swift in Sources */,
 				CE1A45B82361B56300618DBF /* PaymentViewController.swift in Sources */,
 				CE686D4023672DD900E365E8 /* RangeSeekSliderDelegate.swift in Sources */,
 				CE39816D2369ADCF009212A2 /* TableViewCell.swift in Sources */,
 				CE7E9D7523607C5900E35129 /* AddNumberViewController.swift in Sources */,
+				5F687473238C265B00CBF173 /* searchPropertyInteractor.swift in Sources */,
 				CE6B752A235DA85C0055480B /* LeaseMaster.xcdatamodeld in Sources */,
 				CE3981682369ACE0009212A2 /* imageSliderCell.swift in Sources */,
+				5F687477238C270400CBF173 /* searchPropertyViewController.swift in Sources */,
 				CE686D4223672DD900E365E8 /* TapticEngine.swift in Sources */,
 				CE6B7543235DAF3F0055480B /* CustomUIProperties.swift in Sources */,
+				5F75AD8423843E120040F300 /* PersonalInfoDetailTableViewCell.swift in Sources */,
 				CEC458AB235F001200F339DA /* VerificationViewController.swift in Sources */,
 				CE686D4123672DD900E365E8 /* RangeSeekSlider.swift in Sources */,
+				5F75AD702382ECC30040F300 /* SearchViewController.swift in Sources */,
+				5F75AD742382ED610040F300 /* SearchInteractor.swift in Sources */,
 				CE39815E2369ACC2009212A2 /* LandingPageViewController.swift in Sources */,
 				CE1BCFF223608D5400DAE47A /* ResetPasswordViewController.swift in Sources */,
 				CE689229236057F10065CA13 /* MemberPlanClass.swift in Sources */,
 				CE6B7522235DA85C0055480B /* SceneDelegate.swift in Sources */,
 				CE7E9D73236075D300E35129 /* LoginViewController.swift in Sources */,
+				5F687475238C26A200CBF173 /* SearchPropertyPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +683,7 @@
 		};
 		CE6B7534235DA85D0055480B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94988CCDF343DF0D92BF9045 /* Pods-LeaseMaster.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,15 +693,18 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.qodehub.LeaseMaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s";
 			};
 			name = Debug;
 		};
 		CE6B7535235DA85D0055480B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB15F8AF59DDEC23B1C3E125 /* Pods-LeaseMaster.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -554,6 +718,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s";
 			};
 			name = Release;
 		};
