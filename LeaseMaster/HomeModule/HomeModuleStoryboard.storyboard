@@ -108,6 +108,7 @@
                     <connections>
                         <outlet property="allPropertiesTableView" destination="gxb-x7-M5F" id="O9D-DH-g06"/>
                         <outlet property="propertySearchTextfield" destination="rcd-t4-EHB" id="s7m-1P-UuG"/>
+                        <segue destination="idX-QQ-Z34" kind="show" id="pNX-Ug-LYx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kMb-s2-Bbt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -201,13 +202,13 @@
         <!--Properties Detail View Controller-->
         <scene sceneID="dAt-Zb-Hbx">
             <objects>
-                <viewController storyboardIdentifier="detailView" id="idX-QQ-Z34" customClass="propertiesDetailViewController" customModule="LeaseMaster" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="detailView" modalPresentationStyle="fullScreen" id="idX-QQ-Z34" customClass="propertiesDetailViewController" customModule="LeaseMaster" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CNr-UI-Iod">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1703"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qTA-de-oaU">
-                                <rect key="frame" x="0.0" y="44" width="414" height="1625"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="1581"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hkg-f1-vky" userLabel="contentView">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1615"/>
@@ -665,7 +666,7 @@
                                                 </constraints>
                                             </imageView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ee8-f3-bKg" customClass="ZKCarousel" customModule="LeaseMaster" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="31" width="414" height="239"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="270"/>
                                                 <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </view>
                                         </subviews>
@@ -695,7 +696,7 @@
                                             <constraint firstItem="cRI-9Y-0Bg" firstAttribute="top" secondItem="Wzo-3c-jj1" secondAttribute="bottom" constant="-8" id="kLB-Zl-afi"/>
                                             <constraint firstItem="D06-WB-E1f" firstAttribute="leading" secondItem="AdK-1R-rcd" secondAttribute="leading" id="ka4-kt-sQI"/>
                                             <constraint firstItem="Wzo-3c-jj1" firstAttribute="leading" secondItem="cRI-9Y-0Bg" secondAttribute="leading" id="okU-dI-9Z8"/>
-                                            <constraint firstItem="Ee8-f3-bKg" firstAttribute="top" secondItem="hkg-f1-vky" secondAttribute="top" constant="31" id="opF-Eb-1cW"/>
+                                            <constraint firstItem="Ee8-f3-bKg" firstAttribute="top" secondItem="hkg-f1-vky" secondAttribute="top" id="opF-Eb-1cW"/>
                                             <constraint firstItem="AdK-1R-rcd" firstAttribute="leading" secondItem="cRI-9Y-0Bg" secondAttribute="leading" id="qHk-Qi-M9Y"/>
                                             <constraint firstItem="D06-WB-E1f" firstAttribute="top" secondItem="AdK-1R-rcd" secondAttribute="bottom" constant="-8" id="tdC-EZ-69X"/>
                                         </constraints>
@@ -739,8 +740,14 @@
                     </navigationItem>
                     <size key="freeformSize" width="414" height="1703"/>
                     <connections>
+                        <outlet property="bathsNumber" destination="mKA-4K-zSa" id="Bid-1Y-4pY"/>
+                        <outlet property="bedsNumber" destination="gN3-28-MnU" id="od0-XC-29v"/>
                         <outlet property="bottomView" destination="HB3-fH-Dzw" id="c8n-mY-RLp"/>
                         <outlet property="imageSlider" destination="Ee8-f3-bKg" id="FAQ-I6-gRP"/>
+                        <outlet property="locationLabel" destination="hHG-X4-VUf" id="quz-5q-kkE"/>
+                        <outlet property="propertyDescription" destination="wHP-ss-jtZ" id="9dA-7B-sig"/>
+                        <outlet property="propertyName" destination="8Xt-0F-cyK" id="zix-1z-UgN"/>
+                        <outlet property="typeNameLabel" destination="g6S-KV-rzZ" id="BQf-OC-uuD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="csc-ve-PSM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -750,7 +757,7 @@
         <!--Navigation Controller-->
         <scene sceneID="cBc-R4-1r2">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="slZ-Wj-ONC" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="navi" automaticallyAdjustsScrollViewInsets="NO" id="slZ-Wj-ONC" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dUD-Y9-fxs">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import ZKCarousel
+
 
 class PropertiesTableViewCell: UITableViewCell {
     var images : [String] = [String]()
@@ -20,8 +20,8 @@ class PropertiesTableViewCell: UITableViewCell {
     }
     
     func setupCarousel(){
-        self.carousel.interval = 0
-//        self.carousel.start()
+        self.carousel.interval = 3
+        self.carousel.start()
         }
         
     

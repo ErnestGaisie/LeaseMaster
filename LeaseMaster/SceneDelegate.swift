@@ -22,7 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         var mainView: UIStoryboard!
        mainView = UIStoryboard(name: "HomeModuleStoryboard", bundle: nil)
 //
-       let viewcontroller : UIViewController = mainView.instantiateViewController(withIdentifier: "FirstPageViewController") as UIViewController
+       let viewcontroller : UIViewController = mainView.instantiateViewController(withIdentifier: "navi") as UIViewController
         self.window!.rootViewController = viewcontroller
         
 //        let notice = PropertyRouter.createModule()

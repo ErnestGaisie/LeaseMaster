@@ -29,7 +29,7 @@ class FirstPageViewController: UIViewController,UITableViewDataSource,UITableVie
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        CircularSpinner.show()
+//        CircularSpinner.show()
         
       
         allPropertiesTableView.delegate = self
@@ -177,7 +177,7 @@ class FirstPageViewController: UIViewController,UITableViewDataSource,UITableVie
                         
                         })
                            
-                            
+                         
                   
                         
                     }
@@ -191,21 +191,21 @@ class FirstPageViewController: UIViewController,UITableViewDataSource,UITableVie
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-          let vc = storyboard?.instantiateViewController(withIdentifier: "detailView") as? propertiesDetailViewController
+          let vc = (storyboard?.instantiateViewController(withIdentifier: "detailView") as? propertiesDetailViewController)!
         
         let detailedProperty = properties[indexPath.row - 1]
         let detailedPropertyName = properties[indexPath.row - 1].name
         let detailedDescription = properties[indexPath.row - 1].description
         
         
-        vc?.getDetailedProperty = detailedProperty
-        vc?.getDetailedPropertyName = detailedPropertyName
-        vc?.getDetailedDescription = detailedDescription
+        vc.getDetailedProperty = detailedProperty
+        vc.getDetailedPropertyName = detailedPropertyName
+        vc.getDetailedDescription = detailedDescription
         
 //        vc?.imageSlider.slides = properties[indexPath.row]
         
-//        navigationController?.present(vc!, animated: true, completion: nil)
-        self.present(vc!, animated: true, completion: nil)
+        navigationController?.pushViewController(vc, animated: true)
+//        self.present(vc!, animated: true, completion: nil)
     }
     
                        

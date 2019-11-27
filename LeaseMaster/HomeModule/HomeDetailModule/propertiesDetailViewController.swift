@@ -18,9 +18,20 @@ class propertiesDetailViewController: UIViewController {
     var getDetailedDescription: String?
     var getDetailedOccupants: String?
     
-    @IBOutlet weak var bottomView: UIView!
+ 
+    @IBOutlet weak var locationLabel: UILabel!
     
-    var currentIndex = 0
+    @IBOutlet weak var typeNameLabel: UILabel!
+    
+    @IBOutlet weak var propertyName: UILabel!
+    
+    
+    @IBOutlet weak var bedsNumber: UILabel!
+    @IBOutlet weak var bathsNumber: UILabel!
+    
+    @IBOutlet weak var propertyDescription: UITextView!
+    
+    @IBOutlet weak var bottomView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,6 +61,9 @@ class propertiesDetailViewController: UIViewController {
               
         }
 //        imageSlider.imgArray = imgArray
+        
+        self.propertyDescription.text = getDetailedDescription
+        self.propertyName.text = getDetailedPropertyName
         
     }
     
