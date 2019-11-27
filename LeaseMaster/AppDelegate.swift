@@ -8,6 +8,12 @@
 
 import UIKit
 import CoreData
+import GoogleSignIn
+ import FBSDKCoreKit
+import FBSDKLoginKit
+import FacebookLogin
+import FacebookCore
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,8 +21,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+          GIDSignIn.sharedInstance().clientID = "125579355847-v8qo770ski5v4ddfe8dvetvd6rvlocgf.apps.googleusercontent.com"
         
-        UITabBar.appearance().tintColor = #colorLiteral(red: 0.9372549057, green: 0.3490196168, blue: 0.1921568662, alpha: 1)
+        ApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
+        
+        UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
+              // Sets shadow (line below the bar) to a blank image
+              UINavigationBar.appearance().shadowImage = UIImage()
+              // Sets the translucent background color
+              UINavigationBar.appearance().backgroundColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.0)
+              // Set translucent. (Default value is already true, so this can be removed if desired.)
+              UINavigationBar.appearance().isTranslucent = true
+              UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.clear], for: .normal)
+              UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.clear], for: UIControl.State.highlighted)
+              UINavigationBar.appearance().tintColor = .black
+//        UITabBar.appearance().tintColor = #colorLiteral(red: 0.9372549057, green: 0.3490196168, blue: 0.1921568662, alpha: 1)
         return true
     }
 
@@ -33,7 +52,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        let appId: String = Settings.appID!
+    if url.scheme != nil && url.scheme!.hasPrefix("fb\(appId)") && url.host ==  "authorize" {
+    return ApplicationDelegate.shared.application(app, open: url, options: options)
+    }
+    return false
+    }
+    
+func applicationDidBecomeActive(_ application: UIApplication) {
+    AppEvents.activateApp()
+}
     // MARK: - Core Data stack
 
     lazy var persistentContainer: NSPersistentContainer = {
