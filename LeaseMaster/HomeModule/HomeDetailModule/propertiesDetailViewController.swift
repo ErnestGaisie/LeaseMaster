@@ -16,7 +16,15 @@ class propertiesDetailViewController: UIViewController {
     var getDetailedProperty: property?
     var getDetailedPropertyName: String?
     var getDetailedDescription: String?
-    var getDetailedOccupants: String?
+    var getDetailedOccupants: Int?
+    var getDetailedBedrooms: Int?
+    var getDetailedBathrooms: Int?
+    var getDetailedPropertyType: String?
+    var getDetailedCity: String?
+    var getDetailedRegion: String?
+    var getDetailedCurrencyShortname:String?
+    var getDetailedPrice:String?
+    var isMyUserLoggedIn: Bool = false
     
  
     @IBOutlet weak var locationLabel: UILabel!
@@ -26,22 +34,47 @@ class propertiesDetailViewController: UIViewController {
     @IBOutlet weak var propertyName: UILabel!
     
     
-    @IBOutlet weak var bedsNumber: UILabel!
-    @IBOutlet weak var bathsNumber: UILabel!
+    @IBOutlet weak var bedrooms: UILabel!
+    @IBOutlet weak var bathrooms: UILabel!
     
     @IBOutlet weak var propertyDescription: UITextView!
     
     @IBOutlet weak var bottomView: UIView!
     
+    @IBOutlet weak var priceLabel: UILabel!
+    
+    @IBOutlet weak var loginView: UIView!
+    
+ @IBOutlet weak var increaseHeightConstraint: NSLayoutConstraint!
+    
+   @IBOutlet weak var contactOwnerView: UIView!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-       
-        bottomView.layer.shadowOpacity = 0.1
+        
+        if isMyUserLoggedIn == false {
+            loginView.isHidden = false
+            contactOwnerView.isHidden = true
+            increaseHeightConstraint.constant = 0
+            
+        }
+        else
+        if isMyUserLoggedIn == true {
+                loginView.isHidden = true
+       contactOwnerView.isHidden = false
+                  increaseHeightConstraint.constant = 120
+                   
+               }
+        bottomView.layer.shadowOpacity = 0.05
         print("hamcheesegoatmilk")
-        print(getDetailedPropertyName)
-        print(getDetailedProperty)
-        print(getDetailedProperty?.bedrooms)
+//        print(getDetailedPropertyName)
+//        print(getDetailedProperty)
+//        print(getDetailedProperty?.bedrooms)
+//        print(getDetailedDescription)
+        print(getDetailedCity)
+        print(getDetailedRegion)
         
         for imagePath in getDetailedProperty!.paths{
         
@@ -64,12 +97,30 @@ class propertiesDetailViewController: UIViewController {
         
         self.propertyDescription.text = getDetailedDescription
         self.propertyName.text = getDetailedPropertyName
+        self.locationLabel.text = "\(String(describing: getDetailedCity!)), \(String(describing: getDetailedRegion!))"
+        self.bathrooms.text = "\(String(describing: getDetailedBathrooms!))"
+        self.bedrooms.text = "\(String(describing: getDetailedBedrooms!))"
+        self.typeNameLabel.text = getDetailedPropertyType
+        self.priceLabel.text = "\(getDetailedCurrencyShortname!) \(getDetailedPrice!)"
+        
         
     }
     
     @IBAction func didPressRequestContact(_ sender: Any) {
         
         
+    }
+    
+    
+    @IBAction func didPressLoginButton(_ sender: Any) {
+        contactOwnerView.isHidden = false
+        isMyUserLoggedIn = true
+        if isMyUserLoggedIn == true {
+                       loginView.isHidden = true
+                          contactOwnerView.isHidden = false
+                          increaseHeightConstraint.constant = 120
+                          
+                      }
     }
     
     

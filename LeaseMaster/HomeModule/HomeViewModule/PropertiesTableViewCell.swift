@@ -13,6 +13,13 @@ class PropertiesTableViewCell: UITableViewCell {
     var images : [String] = [String]()
     @IBOutlet var carousel: ZKCarousel! = ZKCarousel()
     
+    @IBOutlet weak var propertyTypeLabel: UILabel!
+    
+    @IBOutlet weak var propertyNameLabel: UILabel!
+    
+    @IBOutlet weak var priceLabel: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         setupCarousel()

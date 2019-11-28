@@ -20,6 +20,8 @@ class property {
     var cityName: String = ""
     var regionName: String = ""
     var typeName: String = ""
+    var currencyName: String = ""
+    var currencyShortname: String = ""
     
     
 }

@@ -5,7 +5,7 @@
 //  Created by Isaac Annan on 18/11/2019.
 //  Copyright © 2019 Qodehub. All rights reserved.
 //
-
+import Foundation
 import UIKit
 import Alamofire
 import SwiftyJSON
@@ -26,21 +26,35 @@ class FirstPageViewController: UIViewController,UITableViewDataSource,UITableVie
     
     @IBOutlet weak var propertySearchTextfield: UITextField!
     
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-//        CircularSpinner.show()
+    CircularSpinner.show()
         
       
         allPropertiesTableView.delegate = self
         allPropertiesTableView.dataSource = self
         allPropertiesTableView.separatorStyle = .none
         
+        
+        
 //        allPropertiesTableView.register(UINib.init(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "TableViewCell")
         allPropertiesTableView.register(UINib.init(nibName: "PropertiesTableViewCell", bundle: nil), forCellReuseIdentifier: "tCell")
 
         setupTextfields(textField: propertySearchTextfield)
 //        propertySearchTextfield.addShadowToTextField(color: .gray, cornerRadius: 3, opacity: 0.5)
+        
+        let viewPadding = UIView(frame: CGRect(x: 0, y: 0, width: 30 , height: Int(propertySearchTextfield.bounds.size.height)))
+        propertySearchTextfield.rightViewMode = UITextField.ViewMode.always
+        let imageView = UIImageView(frame: CGRect(x: -5, y: 14, width: 20, height: 20))
+        viewPadding.addSubview(imageView)
+        let image = UIImage(named: "search-24-px")
+        image?.withTintColor(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1))
+        imageView.image = image
+        propertySearchTextfield.rightView = viewPadding
+     
+        
+        
         
         NotificationCenter.default.addObserver(self, selector: #selector(onPropertiesRecieved(notification:)), name: Notification.Name("Properties Recieved"), object: nil)
         
@@ -68,14 +82,15 @@ class FirstPageViewController: UIViewController,UITableViewDataSource,UITableVie
 
         }
 
-                           }
-                        
-
+}
+         
+    
     
     @objc func onPropertiesRecieved(notification: Notification) {
         if let properties: [property] = notification.object as? [property]{
             self.properties = properties
             self.allPropertiesTableView.reloadData()
+            CircularSpinner.hide()
         }
     }
      
@@ -96,10 +111,23 @@ class FirstPageViewController: UIViewController,UITableViewDataSource,UITableVie
             
             let arrayImages = item["images"]
             
+            let description = item["description"]
+            prop.description = description.string!
+            
+            let city = item["city"]
+            prop.cityName = city["name"].string!
+            prop.regionName = city["region"]["name"].string!
+            
             let meta = item["meta"]
             prop.occupants = meta["occupants"].int!
             prop.bathrooms = meta["bathroom"].int!
             prop.bedrooms = meta["bedroom"].int!
+            
+            let propertyTypeName = item["type"]
+            prop.typeName = propertyTypeName["name"].string!
+            
+            let currency = item["currency"]
+            prop.currencyShortname = currency["short_name"].string!
             
             
             
@@ -154,17 +182,16 @@ class FirstPageViewController: UIViewController,UITableViewDataSource,UITableVie
                     
                     let mProperties = properties[indexPath.row-1]
                     
-                    //print(mProperties)
-                    
-//                    cell.roomDescriptionLabel.text = mProperties.name
-//                    cell.amountLabel.text = mProperties.price
+                    cell.propertyTypeLabel.text = "\(mProperties.typeName.uppercased()) . \(mProperties.bedrooms) BEDS . \(mProperties.bathrooms) BATHS"
+                    cell.propertyNameLabel.text = mProperties.name
+                    cell.priceLabel.text = "\(mProperties.currencyShortname) \(mProperties.price) / month"
                     
                     
                     
                     
                     var images: [ZKCarouselSlide] = [ZKCarouselSlide]()
                     //var images: [UIImage] = [UIImage]()
-                    print(mProperties.paths)
+                    //print(mProperties.paths)
                     for item in mProperties.paths{
                         
 
@@ -189,18 +216,50 @@ class FirstPageViewController: UIViewController,UITableViewDataSource,UITableVie
                 
                 
     }
+    
+    
+    func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
+          if indexPath.row == 0 {
+            return nil
+        }
+        
+          else{
+            return indexPath
+        }
+                  
+    }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        
           let vc = (storyboard?.instantiateViewController(withIdentifier: "detailView") as? propertiesDetailViewController)!
         
         let detailedProperty = properties[indexPath.row - 1]
         let detailedPropertyName = properties[indexPath.row - 1].name
         let detailedDescription = properties[indexPath.row - 1].description
+        let detailedCity = properties[indexPath.row - 1].cityName
+        let detailedRegion = properties[indexPath.row - 1].regionName
+        let detailedPropertyType = properties[indexPath.row - 1].typeName
+        let detailedBedrooms = properties[indexPath.row - 1].bedrooms
+        let detailedBathrooms = properties[indexPath.row - 1].bathrooms
+        let detailedOccupants = properties[indexPath.row - 1].occupants
+        let detailedPrice = properties[indexPath.row - 1].price
+        let detailedCurrShortname = properties[indexPath.row - 1].currencyShortname
+        
         
         
         vc.getDetailedProperty = detailedProperty
         vc.getDetailedPropertyName = detailedPropertyName
         vc.getDetailedDescription = detailedDescription
+        vc.getDetailedRegion = detailedRegion
+        vc.getDetailedCity = detailedCity
+        vc.getDetailedPropertyType = detailedPropertyType
+        vc.getDetailedBedrooms = detailedBedrooms
+        vc.getDetailedBathrooms = detailedBathrooms
+        vc.getDetailedOccupants = detailedOccupants
+        vc.getDetailedCurrencyShortname = detailedCurrShortname
+        vc.getDetailedPrice = detailedPrice
+        
         
 //        vc?.imageSlider.slides = properties[indexPath.row]
         
@@ -217,4 +276,5 @@ class FirstPageViewController: UIViewController,UITableViewDataSource,UITableVie
 
 }
         
+
 

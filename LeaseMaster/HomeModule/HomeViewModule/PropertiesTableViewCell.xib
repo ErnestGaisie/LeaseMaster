@@ -37,12 +37,12 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flat∙ 3 Beds ∙ 3 Baths" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZq-KV-fPb">
-                        <rect key="frame" x="21" y="249" width="134" height="15"/>
+                        <rect key="frame" x="21" y="249" width="116" height="15"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="134" id="Lvb-fh-v46"/>
+                            <constraint firstAttribute="width" priority="250" constant="134" id="Lvb-fh-v46"/>
                             <constraint firstAttribute="height" constant="15" id="xIm-ds-NJk"/>
                         </constraints>
-                        <fontDescription key="fontDescription" name="Gilroy-Bold" family="Gilroy-Bold" pointSize="12"/>
+                        <fontDescription key="fontDescription" name="Gilroy-Medium" family="Gilroy-Medium" pointSize="12"/>
                         <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -61,7 +61,7 @@
                     <constraint firstItem="aZq-KV-fPb" firstAttribute="top" secondItem="D2L-LI-Tca" secondAttribute="bottom" constant="16" id="ATe-Hd-snA"/>
                     <constraint firstAttribute="trailing" secondItem="D2L-LI-Tca" secondAttribute="trailing" constant="21" id="C0i-TE-X5l"/>
                     <constraint firstItem="8TU-q2-W5X" firstAttribute="leading" secondItem="aZq-KV-fPb" secondAttribute="leading" id="Exk-5Z-pKA"/>
-                    <constraint firstAttribute="trailing" secondItem="eaP-gd-zLq" secondAttribute="trailing" constant="280" id="Fxd-a8-VIx"/>
+                    <constraint firstAttribute="trailing" secondItem="eaP-gd-zLq" secondAttribute="trailing" priority="250" constant="280" id="Fxd-a8-VIx"/>
                     <constraint firstItem="eaP-gd-zLq" firstAttribute="leading" secondItem="8TU-q2-W5X" secondAttribute="leading" constant="-1" id="H6M-EE-Qru"/>
                     <constraint firstItem="8TU-q2-W5X" firstAttribute="top" secondItem="aZq-KV-fPb" secondAttribute="bottom" id="HOl-t3-v76"/>
                     <constraint firstItem="D2L-LI-Tca" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Yei-uC-jM9"/>
@@ -74,6 +74,9 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="carousel" destination="D2L-LI-Tca" id="AMI-zZ-7pp"/>
+                <outlet property="priceLabel" destination="eaP-gd-zLq" id="Icm-dh-Htf"/>
+                <outlet property="propertyNameLabel" destination="8TU-q2-W5X" id="ece-wc-rd9"/>
+                <outlet property="propertyTypeLabel" destination="aZq-KV-fPb" id="iJI-Ho-PaX"/>
             </connections>
             <point key="canvasLocation" x="137.68115942028987" y="126.22767857142857"/>
         </tableViewCell>
