@@ -1502,6 +1502,14 @@
             </objects>
             <point key="canvasLocation" x="8519" y="97"/>
         </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="TbN-qS-3Cw">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="HomeModuleStoryboard" id="SBg-eS-0O3" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gQF-CD-3js" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1652" y="3444"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="S6x-H3-7Ci">
             <objects>

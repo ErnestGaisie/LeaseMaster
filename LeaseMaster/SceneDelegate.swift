@@ -17,6 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         guard let _ = (scene as? UIWindowScene) else { return }
         
+<<<<<<< HEAD
         var searchStoryboard: UIStoryboard!
         searchStoryboard = UIStoryboard(name: "Search", bundle: nil)
         
@@ -24,6 +25,21 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         self.window!.rootViewController = viewController
         
         
+=======
+        var mainView: UIStoryboard!
+       mainView = UIStoryboard(name: "HomeModuleStoryboard", bundle: nil)
+//
+       let viewcontroller : UIViewController = mainView.instantiateViewController(withIdentifier: "navi") as UIViewController
+        self.window!.rootViewController = viewcontroller
+        
+//        let notice = PropertyRouter.createModule()
+//        let navi = UINavigationController()
+//        navi.viewControllers = [notice]
+        
+        let window = UIWindow(windowScene: scene as! UIWindowScene)
+//        window.rootViewController = viewcontroller
+        window.makeKeyAndVisible()
+>>>>>>> Grey
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
