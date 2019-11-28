@@ -140,6 +140,13 @@
 			path = HomeViewModule;
 			sourceTree = "<group>";
 		};
+		6A74A1B7239025D700D5B01C /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		6A74BF422382E753002D58E6 /* CircularSpinner */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +232,7 @@
 		CE6B751E235DA85C0055480B /* LeaseMaster */ = {
 			isa = PBXGroup;
 			children = (
+				6A74A1B7239025D700D5B01C /* TabBar */,
 				6A74BF422382E753002D58E6 /* CircularSpinner */,
 				CE7E9D7623607CFF00E35129 /* OnboardingModule */,
 				CEB6F4AE2371F54600E94BE4 /* HomeModule */,

@@ -19,11 +19,24 @@ class PropertiesTableViewCell: UITableViewCell {
     
     @IBOutlet weak var priceLabel: UILabel!
     
+    public var savebutton:UIButton = {
+           let butt = UIButton()
+           butt.backgroundColor  = .gray
+           
+           butt.setImage(#imageLiteral(resourceName: "saved-inactive"), for: .normal)
+            
+           butt.translatesAutoresizingMaskIntoConstraints = false
+            return butt
+        }()
     
     override func awakeFromNib() {
         super.awakeFromNib()
         setupCarousel()
     
+        savebutton.topAnchor.constraint(equalTo: carousel.topAnchor, constant: 15.8).isActive = true
+             savebutton.trailingAnchor.constraint(equalTo: carousel.trailingAnchor, constant: -15.8).isActive = true
+             savebutton.heightAnchor.constraint(equalToConstant: 18).isActive = true
+             savebutton.widthAnchor.constraint(equalToConstant: 10.5).isActive = true
     }
     
     func setupCarousel(){
